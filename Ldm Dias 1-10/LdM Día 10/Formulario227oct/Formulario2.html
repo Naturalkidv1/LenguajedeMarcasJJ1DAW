@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	
+
+	<head>
+		<meta  charset="UFT-8">
+		<title> Ejemplo de formulario </title>
+		<link href="img/favicon.png" rel="shorcut icon"/>
+	</head>	
+
+
+	<body>
+		<h2 align="center"> E N C U E S T A &nbsp; &nbsp; &nbsp;  I N F O R M Á T I C A </h2>
+		<form action="Formulario2.html" method="post" enctype="multipart/form-data">
+		<fieldset>
+		<legend> Datos personales  </legend>
+		
+		<label for="edad"> Edad: </label> <input type="text" name="edad" id="edad" size="5">  
+		&nbsp; &nbsp;
+
+		</input> Sexo: <input type="radio" name="sexo" id="hombre" value="hombre"/> <label for="hombre"> Hombre </label>
+		<input type="radio" name="sexo" id="mujer" value="mujer"/> <label for="mujer"> Mujer 		</label> 
+
+		&nbsp; &nbsp; <label for="estudios"> Estás estudiando: </label>
+			<select id="estudios" name="estudios">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> Estudios de FP Superiores </option>
+  			</select>
+		
+		</fieldset>
+		
+		
+		<fieldset>
+		<legend>  Preguntas generales </legend>
+		
+		</input> ¿Tienes ordenador en tú casa? <input type="radio" name="ordenador" id="si" value="si"/> <label for="si"> Si </label>
+		<input type="radio" name="ordenador" id="no" value="no"/> <label for="no"> No </label> 
+		<br/>
+	</input> ¿Lo utilizas sólo tú o lo compartes con otras personas? <input type="radio" 		name="uso" id="propio" value="propio"/> <label for="propio"> Propio </label>
+		<input type="radio" name="uso" id="compartido" value="compartido"/> <label for="compartido"> Compartido </label> 
+		<br/>
+		En peíodos de clase:
+		<br/>
+		<ul>
+			<li> <label for="dals"> ¿Cuántos días a la semana sueles encender el ordenador? 
+			</label> <select id="dals" name="dals">
+				<option value="blank" selected>    </option>
+				<option value="opt1">  8  </option>
+			</select>
+			</li>
+			<li> <label for="had"> ¿Cuántas horas diaias sueles gastar el ordenador (cada día)?
+			</label> <select id="had" name="had">
+				<option value="blank" selected>    </option>
+				<option value="opt1"> 24 </option>
+			</select>
+			</li>
+		</ul>
+		En peíodos de vacaciones:
+		<br/>
+		<ul>
+			<li> <label for="dalsv"> ¿Cuántos días a la semana sueles encender el ordenador? 
+			</label> <select id="dalsv" name="dalsv">
+				<option value="blank" selected>    </option>
+				<option value="opt1">  8  </option>
+			</select>
+			</li>
+			<li> <label for="hadv"> ¿Cuántas horas diaias sueles gastar el ordenador (cada día)?
+			</label> <select id="hadv" name="hadv">
+				<option value="blank" selected>    </option>
+				<option value="opt1"> 24 </option>
+			</select>
+			</li>
+		</ul>
+		¿A qué dedicas tu tiempo en el ordenador?
+		<br/>
+		<table> 
+		<tr>
+		<td> <input type="checkbox" name="escribir" id="escribir"/> <label for="escribir"> Escribir </label> </td>
+		<td> <input type="checkbox" name="dibujar" id="dibujar"/> <label for="dibujar"> Dibujar </label> </td>
+		<td> <input type="checkbox" name="programar" id="programar"/> <label for="programar"> Programar </label>  </td>
+		<td> <input type="checkbox" name="hmusic" id="hmusic"/> <label for="hmusic"> Hacer música </label>  </td>
+		<td> <input type="checkbox" name="rfoto" id="rfoto"/> <label for="rfoto"> Retoque fotográfico </label>  </td>
+		</tr>
+		<tr>
+		<td> <input type="checkbox" name="jugar" id="jugar"/> <label for="jugar"> Jugar </label> </td>
+		<td> <input type="checkbox" name="vpagweb" id="vpagweb"/> <label for="vpagweb"> Ver páginas web </label> </td>
+		<td> <input type="checkbox" name="chatear" id="chatear"/> <label for="chatear"> Chatear </label> </td>
+		<td> <input type="checkbox" name="intmusic" id="intmusic"/> <label for="intmusic"> Intercambiar música </label>  </td>
+		<td> <input type="checkbox" name="intpelser" id="intpelser"/> <label for="intpelser"> Intercambiar películas/series </label>  </td>
+		</tr>
+		</table>
+		<n/>
+		Otras actividades (especifica):
+		<input type="text" name="oact1" id="oact1">
+		<input type="text" name="oact2" id="oact2">
+		<input type="text" name="oact3" id="oact3">
+		</fieldset>
+		
+
+
+		<fieldset>
+		<legend>  Descripción  </legend>
+		
+		Tipo: <input type="radio" name="tipo" id="sobremesa" value="sobremesa"/> 
+		<label for="sobremesa"> Sobremesa - </label>
+		<input type="radio" name="tipo" id="portatil" value="portatil"/> <label for="portatil"> Portátil - </label>
+		<input type="radio" name="tipo" id="tabletpc" value="tabletpc"/> <label for="tabletpc"> Tablet PC </label>
+		<br/>
+		<label for="antiguedad"> Antigüedad: </label>
+			<select id="antiguedad" name="antiguedad">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> Muchos años </option>
+  			</select>
+  		<br/>
+  		Tipo: <input type="radio" name="marca" id="sinmarca" value="sinmarca"/> 
+		<label for="sinmarca"> Sin marca </label>
+		<input type="radio" name="marca" id="conmarca" value="conmarca"/> <label for="conmarca"> De marca </label> <label for="marcatext"> (especificar) </label> : 
+		<input type="text" name="edad" id="marcatext">
+		<br/>
+		Procesador: 
+			<label for="marcasel"> Marca: </label> 
+			<select id="marcasel" name="marcasel">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> Intel[rell] </option>
+  			</select>
+  			<label for="modelosel"> - Modelo: </label> 
+			<select id="modelosel" name="modelosel">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> I3[relleno] </option>
+  			</select>
+  			<label for="velsel"> - Velocidad: </label> 
+			<select id="velsel" name="velsel">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> Rápido </option>
+  			</select>
+  		<br/>
+  		<label for="ram"> Memorio RAM: </label>
+  		<select id="ram" name="ram">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> Sí[Relleno] </option>
+  		</select>
+  		<br/>
+  		<label for="discdur"> Discoduro: </label>
+  		<select id="discdur" name="discdur">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> Sí[Relleno] </option>
+  		</select>
+		<br/>
+		CD/DVD:
+		<input type="checkbox" name="cddvd" id="cdrom"/> <label for="cdrom"> CD-ROM </label>
+		<input type="checkbox" name="cddvd" id="cdrw"/> <label for="cdrw"> CD-RW </label> 
+		<input type="checkbox" name="cddvd" id="dvdrom"/> <label for="dvdrom"> DVD-ROM 
+		</label> 
+		<input type="checkbox" name="cddvd" id="dvdrw"/> <label for="dvdrw"> DVD-RW y/o +RW
+		</label>  
+ 		<br/>
+ 		Monitor: Tipo 
+		<input type="radio" name="tipomon" id="crt" value="crt"/> 
+		<label for="crt"> CRT - </label>
+		<input type="radio" name="tipomon" id="tft" value="tft"/> 
+		<label for="tft"> TFT - </label> Tamaño: 
+		<input type="radio" name="tammon" id="men17" value="men17"/> 
+		<label for="men17"> Menos de 17" </label>
+		<input type="radio" name="tammon" id="17" value="17"/> 
+		<label for="17"> 17" </label>
+		<input type="radio" name="tammon" id="19" value="19"/> 
+		<label for="19"> 19" </label>
+		<input type="radio" name="tammon" id="mas19" value="mas19"/> 
+		<label for="mas19"> Más de 19" </label>
+		<br/>
+  		<label for="accint"> Acceso a Internet: </label>
+  		<select id="accint" name="accint">
+  				<option value="blank" selected> </option>
+  				<option value="op1"> Sí[Relleno] </option>
+  				<option value="op1"> No[Relleno] </option>
+  		</select>
+
+		</fieldset>
+
+			<p align="right">
+			<input type="reset" name="BtnEnviar" value="Borrar todo"/> 
+			<input type="submit" name="comprobar" value="Comprobar"/>
+			</p>
+		
+		</form>
+
+	
+	</body>
+<!-- Hecho por Juan José Bazán Espinosa-->
+</html>

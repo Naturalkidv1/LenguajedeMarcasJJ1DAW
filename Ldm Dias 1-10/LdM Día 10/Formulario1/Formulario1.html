@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	
+
+	<head>
+		<meta  charset="UFT-8">
+		<title> Ejemplo de formulario </title>
+		<link href="img/favicon.png" rel="shorcut icon"/>
+	</head>	
+
+
+	<body>
+		<h2> Activar y desactivar elementos </h2>
+		<form action="Formulario1.html" method="post" enctype="multipart/form-data">
+		<fieldset>
+		<legend>  Requisitios de acceso  </legend>
+		<dl>
+			<dt><input type="radio" name="requacc" id="directo" value="directo"/> <label for="directo"> Directo </label> </dt>
+					<dd> <input type="radio" name="dirtab" id="bachillerato" value="bachillerato"/> 
+					<label for="bachillerato"> Bachillerato LOGSE. </label> 
+					<label for="modbachi"> Modalidad </label>
+					<input type="text" name="modbachi" id="modbachi"> </dd>
+					
+					<dd> <input type="radio" name="dirtab" id="bachilleratoex" value="bachilleratoex"/> 
+					<label for="bachilleratoex"> Bachillerato experimental. </label> </dd>
+					
+					<dd> <input type="radio" name="dirtab" id="cou" value="cou"/> 
+					<label for="cou"> COU. </label> 
+					<label for="couop"> Opción </label>
+					<input type="text" name="couop" id="couop"> </dd>
+					
+					<dd> <input type="radio" name="dirtab" id="fp2" value="fp2"/> 
+					<label for="fp2"> FP2 </label> </dd>
+						
+					<dd> <input type="radio" name="dirtab" id="otros" value="otros"/> 
+					<label for="otros"> Otros </label> 
+					<label for="otrosesp"> (especifique): </label>
+					<input type="text" name="otrosesp" id="otrosesp"> </dd>
+			
+			<dt><input type="radio" name="requacc" id="medprueba" value="medprueba"/> 
+			<label for="medprueba"> Mediante Prueba </label> </dt>
+		</dl>
+		
+		</fieldset>
+		
+		<hr>
+		
+		<h2> Modificar una lista en función de otra </h2>
+		
+		<fieldset>
+		<legend>  Datos personales  </legend>
+		<label for="nivel"> Nivel: </label> 
+		 	<select id="nivel" name="nivel">
+  				<option value="blank" selected>    </option>
+ 				<option value="1nivel"> Primer Nivel </option>	
+  				<option value="2nivel"> Segundo Nivel </option>
+			</select> <label for="curso"> - Curso : </label>
+			<select id="curso" name="curso">
+  				<option value="blank" selected>    </option>
+ 				<option value="1curso"> Primer Curso </option>	
+  				<option value="2curso"> Segundo Curso </option>
+  			</select>
+		</fieldset>
+		
+		<hr>
+		
+		<h2> Avisar de que algo no está relleno </h2>
+		<fieldset>
+		<legend>  Datos personales  </legend>
+		<ul>
+			<li> <label for="nombre"> Nombre: </label> <input type="text" name="nombre" id="nombre">  </input> </li>
+		 	<li> <label for="nacido"> Nacido en: </label> 
+		 		<select id="nacido" name="nacido">
+  					<option value="blank" selected>    </option>
+ 					<option value="2001"> 2001 </option>	
+  					<option value="2002"> 2002 </option>
+ 					<option value="2003"> 2003 </option>
+ 					<option value="2004"> 2004 </option>
+ 					<option value="2005"> 2005 </option>	
+  					<option value="2006"> 2006 </option>
+ 					<option value="2007"> 2007 </option>
+ 					<option value="2008"> 2008 </option>
+ 					<option value="2009"> 2009 </option>	
+  					<option value="2010"> 2010 </option>
+ 				
+				</select>
+		 	</li>
+		 	<li> Sexo: 
+			<input type="radio" name="sexo" id="hombre" value="hombre"/> <label for="hombre"> Hombre </label>
+			<input type="radio" name="sexo" id="mujer" value="mujer"/> <label for="mujer"> Mujer </label> </li>
+		</ul>
+			<p align="right">
+			<input type="reset" name="BtnEnviar" value="Borrar todo"/> 
+			<input type="submit" name="comprobar" value="Comprobar"/>
+			</p>
+		</fieldset>
+		</form>
+		<hr>
+	
+	
+	</body>
+
+</html>
