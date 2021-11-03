@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Formulario de registro - Mi web</title>
+	<meta charset="utf-8"/>
+	<link href="../Images/favicon.jpg" rel="shortcut icon"/>
+</head>
+
+<body>
+<h1> Formulario </h1>
+
+<form action="../Principal/index.html" method="get">
+<p> <label for="nombre"> Nombre </label> <input type="text" name="nombre" id="nombre" maxlength="50"><br/>
+<label for="apell"> Apellidos </label> <input type="text" name="apell" id="apell" maxlength="50">  <br/>
+<label for="contra"> Contraseña </label> <input type="password" name="contra" id="contra" maxlength="50"></p>
+
+<p>
+
+<input type="checkbox" name="asign" id="lengua" value="lengua"/>  <label for="asign"> Lengua </label>
+<input type="checkbox" name="asign" id="mates" value="mates"/>  <label for="mates"> Matemáticas </label>
+<input type="checkbox" name="asign" id="histo" value="histo"/>  <label for="histo"> Historia </label>
+<input type="checkbox" name="asign" id="geog" value="geog"/>  <label for="geog"> Geografía </label>
+ 
+
+</br>
+<label for="file"> Elija un fichero: </label><input type="file" name="file" id="file"/> </br>
+
+<input type="textarea" name="textbox" id="textbox" placeholder="Utilice este cuadro para escribir" maxlength="50" /> </br>
+
+<input type="radio" name="tipodeimg" id="jpg" value="jpg" marcked/> <label for="jpg" > JPG </label>
+<input type="radio" name="tipodeimg" id="png" value="png" /> <label for="png" > PNG </label>
+</p>
+
+<p>
+Seleccione un Puerto de Comunicaciones
+</br>
+<select size="3" multioption>
+<option > USB </option>
+<option > Paralelo </option>
+<option selected="selected"> PS2 </option>
+<option > Serie </option>
+</select>
+</p>
+
+<p align="right">
+<input type="submit" name="enviar" value="Enviar"/>
+<input type="submit" name="btnenviar" value="Borrar Todo"/>
+</p>
+</form>
+
+
+</body>
+
+</html>
+
