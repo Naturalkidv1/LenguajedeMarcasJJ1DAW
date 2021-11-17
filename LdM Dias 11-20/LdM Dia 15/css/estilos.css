@@ -1,0 +1,21 @@
+/* Hola */
+
+/* *{border:3px solid red;} */
+/* p{padding: (arriba y derecha) 5em 5em (abajo e izquierda) 5em 5em; border-top-color:blue; border-width: 5px; border-style: dashed} */
+body {background-color: olive;  }
+p  {background-color:lightblue; 
+color: green; 
+background-image: url("../img/blanco.jpg"); 
+background-repeat: /* repeat por defecto ; repeat-x para solo en el eje x; repeat-y para lo propio;*/no-repeat; 
+/* background-position: 150px 50px */
+background-position: 50% bottom;
+margin: 3em;
+}
+b {margin-top:5em; margin-left: 5em;}
+h1 {background: red url("../img/blanco.jpg") repeat-x 16px 16px}
+ p {padding: 3em 3em 3em; border: blue 5px dashed; border-right:none; border-top: yellow dotted; border-bottom: red solid}
+/*p{padding-left: 1em}*/
+/*p{padding-top: 1em}*/
+/*p{padding-bottom: 1em}*/
+/*p{padding-right: 1em}*/
+

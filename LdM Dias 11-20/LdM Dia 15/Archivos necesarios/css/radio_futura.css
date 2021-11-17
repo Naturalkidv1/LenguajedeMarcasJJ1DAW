@@ -1,0 +1,59 @@
+/* body { 
+  background-color: lightgrey; 
+  font-family: sans-serif; 
+}
+*/
+body { 
+  background-color: lightgrey; 
+  font-family: sans-serif; 
+    margin: 5px 20px; 
+  padding: 0 20px;
+  border-bottom: black 10px solid; 
+  border-left: white 10px solid; 
+  border-right: black 10px solid; 
+  border-top: white 10px solid; 
+}
+
+h1 { 
+  border-bottom: white 3px solid;
+  font-variant: small-caps; 
+  text-align: center; 
+}
+
+p { 
+  background-color: white; 
+  border-bottom: black 3px solid;
+  border-right: black 5px solid; 
+  line-height: 150%;
+  margin: 20px 80px; 
+  padding: 5px;  
+}
+
+i { 
+  background-color: lightgrey; 
+  color: white; 
+  font-weight: bold; 
+  padding: 0px 5px; 
+}
+
+b { 
+  border-bottom: black 3px solid; 
+  border-top: black 3px solid;
+}
+
+span.letra1 { 
+  background-color: lightgrey; 
+  font-size: 200%; 
+  margin-left: -5px; 
+}
+
+span.letra2 { 
+  color: white; 
+}
+
+span.letra3 {
+  background-color: lightgrey; 
+  font-size: 115%; 
+  margin-left: -5px;  
+}
+

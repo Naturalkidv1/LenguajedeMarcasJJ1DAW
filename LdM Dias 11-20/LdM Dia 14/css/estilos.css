@@ -1,0 +1,9 @@
+/* medidas relativas */
+
+body {font-size: 20px}
+p {font-size: 1.5em}
+p#esp{font-size: 50%}
+
+p {color: #4576} /*  codigo hexadecimal para color */
+p#esp {color: #ff0000}
+/*p#esp {color: rgb(71, 98, 176)}*/
