@@ -1,0 +1,59 @@
+/* Como le comenté en clase, me lo encontré ya hecho, como me parece algo ilícito, esta versión (que usaré oficialmente para el ejercicio) es menos elegante
+ y más tosca, a su vez, las cosas que como tal no se nos ha impartido en clase a fecha de 17 de Noviembre de 2021, no las usaré y las intentaré solucionar como
+ se pueda; si he hablado con usted, comentandole esto mismo, este comentario carece de valor.  */
+
+
+
+body { 
+  background-color: lightgrey; 
+  font-family: sans-serif; 
+    margin: 5px 20px; 
+  border-bottom: black 10px solid; 
+  border-left: white 10px solid; 
+  border-right: black 10px solid; 
+  border-top: white 10px solid;
+}
+
+h1 { 
+  border-bottom: white 3px solid;
+  text-align: center; 
+}
+
+p { 
+  background-color: white; 
+  border-bottom: black 3px solid;
+  border-right: black 5px solid; 
+  margin: 20px 80px;
+  padding-bottom: 5px;
+
+}
+
+i{ 
+  background-color: lightgrey; 
+  color: white;  
+}
+
+p > b { 
+  border-bottom: black 3px solid; 
+  border-top: black 3px solid;
+}
+
+span.letra1 { 
+  background-color: lightgrey; 
+  font-size: 200%;  
+}
+
+span.letra2 { 
+  color: white; 
+}
+
+span.letra3 {
+  
+  font-size: 115%; 
+    
+}
+
+span.margenpuntual {
+  margin-left: 60px;
+}
+

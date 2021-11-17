@@ -1,0 +1,26 @@
+body { 
+  font-family: sans-serif; 
+  text-align: justify; 
+}
+
+
+h2, h3, h4, h5, h6 { 
+  font-size: 120%; 
+  font-weight: normal; 
+}
+
+h1 {
+  border: 5px solid;
+  text-align: center;
+}
+
+h2 {
+  border-left: red 15px double;
+}
+
+h3 {
+  border-top: 5px turquoise dotted;
+  border-right: 10px fuchsia dotted;
+  border-bottom: 15px turquoise dotted;
+  border-left: 20px fuchsia dotted;
+}

@@ -5,8 +5,15 @@ a{color:orange;background-color:purple; padding: 1px; border: 5px; }
 h1{color:black; text-align:center;}
 b {color:blue}
 i {color:yellow}
-b i {color:green}
+/* b i {color:green} */
 .verde {color:green; font-size:20px}
 .centrar {text-align: center}
 /* #pa3 {text-decoration: underline} */
 #enlaces {text-align: center;}
+
+b > i {text-decoration: underline; text-decoration-color: red; } /* el > se usa cuando es hija directa */
+
+blockquote + span {color: red} /* el + se usa cuando es hermano */
+
+input[class="inputtext"] {color: red}
+input[type="text"] {width: 500px} 
