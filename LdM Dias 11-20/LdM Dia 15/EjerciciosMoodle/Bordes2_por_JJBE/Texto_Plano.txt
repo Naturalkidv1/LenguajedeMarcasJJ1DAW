@@ -1,0 +1,75 @@
+NOTA:
+
+Colores usados:
+	#DBFFDB; #B8EAAD ; #F1FFF1; #FCD4F2; #B89BB1
+Alineación del texto usados (text-align):
+	center; justify
+------------------------------------------------------------------------------
+Personajes del siglo XX
+
+Aleixandre, Vicente. España, 1898-1984, poeta
+
+Vicente Aleixandre -premio Nobel de Literatura en 1976- es el autor de un
+amplio y coherente discurso poético -hímnico, cósmico, telúrico,
+imaginativo-, que evoluciona al hilo de cada una de las tendencias literarias
+que aborda sin hacerse nunca moda, y es fiel a una honda personalidad. Puede
+ser considerado maestro de las distintas generaciones que se sucedieron a
+partir de la guerra civil. La destrucción o el amor, de Aleixandre es, junto
+con Poeta en Nueva York, de Federico García Lorca; Sobre los ángeles, de
+Rafael Alberti, y Donde habite el olvido, de Luis Cernuda (poetas todos
+pertenecientes a la denominada generación del 27), una alta cumbre de la
+poesía surrealista. Otros títulos suyos, como Sombra del paraíso o Historia
+del corazón, son fundamentales para entender la variedad y riqueza de
+registros de su voz; una voz panteísta que invoca a la comunión con la
+naturaleza, una voz exaltada por la fuerza amorosa en toda su plenitud; una
+de las poesías de mayor brillantez expresiva de las letras españolas.
+
+Baroja, Pío. España, 1872-1956, escritor
+
+Probablemente el novelista más considerable del siglo en España, lo que no
+significa que nuestra narrativa le deba sus obras mayores. Pero fue quien
+tuvo más mundo propio, que desplegó en una abundante producción: más de
+sesenta novelas y diversos cuentos y novelas cortas. Su plenitud va desde
+comienzos de siglo hasta poco antes de la Primera Guerra Mundial. En esos
+años compone Camino de perfección, la trilogía de La lucha por la vida, César
+o nada, Las inquietudes de Shanti Andía y El árbol de la ciencia, donde
+alienta una cosmovisión pesimista, se trazan inquietantes cuadros de crítica
+social y se exalta la acción como imposible terapia del ser humano, a veces
+con tonos prefascistas, todo ello visto a través de protagonistas que son
+contrafiguras del autor y plasmado en un estilo impecablemente narrativo.
+
+Bohr, Niels. Dinamarca, 1885-1962, físico
+
+Bohr describió las órbitas de los electrones que rodean al núcleo de un
+átomo. Además, desmpeñó un papel esencial en la II Guerra Mundial, al
+demostrar que la bomba atómica era posible. Trabajó como estudiante con
+Rutherford, que había descubierto que en todos los átomos los electrones con
+carga negativa se desplazaban alrededor de un núcleo con carga positiva.
+Niels Bohr demostró que la teoría cuántica propuesta por Max Planck explicaba
+la estabilidad del átomo y la luz coloreada que emiten los elementos químicos
+cuando están incandescentes. Si esta luz se pasa a través de un prisma y se
+enfoca sobre un papel, forma un patrón de líneas coloreadas denominado
+espectro. Bohr propuso que estas líneas se producen porque los electrones
+irradian energía cuando caen de una órbita a otra más cercana al núcleo. La
+teoría cuántica estableció las distancias entre las órbitas.
+
+Turing, Alan. Reino Unido, 1912-1954, matemático
+
+Alan Turing fue el inventor de lo que conocemos como ordenador. Lo
+describió en 1936, casi de pasada, en un denso artículo, On Computable
+Numbers. La cuestión era definir qué era un ordenador. Éste consistía,
+explicaba, en una máquina a la que se podía instruir con una cinta continua
+dividida en unidades. La máquina leería las instrucciones de una unidad, las
+ejecutaría y pasaría a la siguiente unidad. Ésta es la forma de
+funcionamiento de un ordenador moderno, y la programación consiste en
+encontrar formas económicas de dividir una tarea en unidades. Turing llevó su
+teoría a la práctica durante la II Guerra Mundial. La misión que se le asignó
+fue descubrir la forma de descifrar los códigos Enigma de los alemanes. En
+1943 concluyó el primer ordenador del mundo basado en la electrónica digital:
+Colossus. Tras la guerra, se le encargó desarrollar el Automatic Computing
+Engine, ACE, que debía ser un ordenador de uso general. Entregó el proyecto
+en 1946, pero nadie quiso respaldarlo. En 1948 comenzó a trabajar en el campo
+de la Inteligencia Artificial.
+
+Extraído del coleccionable: Los 1000 protagonistas del siglo XX. Diario El
+País, SA. Madrid 1992

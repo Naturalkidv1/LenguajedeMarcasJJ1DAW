@@ -1,0 +1,50 @@
+/*
+#DBFFDB es pistacho suave; 
+#B8EAAD es pistacho menos suave; 
+#F1FFF1 es blanco sucio; 
+#FCD4F2 es rosita pastel; 
+#B89BB1 es lila pastel;
+*/
+
+* {background: #DBFFDB ;
+font-family: monospace;}
+
+body{border: 10px #B8EAAD solid;}
+
+h1 {
+margin-left: 25px;
+margin-right: 25px;
+background-color: #B8EAAD;		
+border: 7px #F1FFF1 solid;
+text-align: center;
+}
+
+h2 {
+margin-left: 25px;
+margin-right: 25px;
+background-color: #FCD4F2;		
+border: 7px #B89BB1 solid;
+border-bottom: none;
+padding-left: 15px;
+
+}
+
+p {
+text-align: justify;
+margin-top: -15px;
+margin-left: 25px;
+margin-right: 25px;		
+border: 7px #B89BB1 solid;
+border-top: none;
+padding: 10px;
+}
+
+p.comentario {
+	border: none;
+	border-top: 2px dashed;
+	margin-top: 0;
+	text-align: right;
+	padding: 0;
+	margin-bottom: 0;
+	font-style: italic  ;
+}
