@@ -1,0 +1,81 @@
+
+
+body { 
+  background-color: lightgrey; 
+  font-family: sans-serif;
+}
+
+h1 { 
+  text-align: center; 
+}
+
+p { 
+  font-size: 150%; 
+  padding: 10px; 
+}
+
+/*  Bordes y colores de los 6 bloques */
+  
+  .marron{background-color: #DBC9A6; 
+  border: #9B8F76 2px solid;
+  text-align: center;
+  margin-right: 3em; margin-left: 3em;
+  padding-bottom: 1em;}
+ 
+
+
+  .verde{background-color: #91FF91; 
+  border: #64B064 4px solid;
+  text-align: center;
+  position: fixed;
+  width: 25%;
+  top:  45%;
+  left: 30%;
+  padding-bottom: 3em;
+  z-index: 2;
+  }
+
+
+  .amarillo{background-color: #FFFFB3; 
+  border: #EBEBA5 4px solid;
+  text-align: center;
+  position: fixed;
+  width: 25%;
+  top:  22%;
+  left: 5%;
+  padding-bottom: 3em;}
+  
+
+  .celeste{background-color: #C6FFFF; 
+  border: #98C4C4 4px solid;
+  text-align: center;
+  position: fixed;
+  width: 25%;
+  top:  22%;
+  left: 55%;
+  padding-bottom: 3em;}
+
+
+  .lila{background-color: #FFE5FF; 
+  border: #BAA7BA 4px solid;
+  text-align: center;
+  position: fixed;
+  width: 25%;
+  top:  72%;
+  left: 5%;
+  padding-bottom: 3em;}
+  
+
+  .rojo{background-color: #FFB4B4; 
+  border: #865F5F 4px solid;
+  text-align: center;
+  position: fixed;
+  width: 25%;
+  top:  72%;
+  left: 55%;
+  padding-bottom: 3em;}
+
+
+p:hover { 
+  z-index: 3; 
+}

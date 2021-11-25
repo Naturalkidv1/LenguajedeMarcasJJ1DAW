@@ -1,0 +1,45 @@
+
+
+body { 
+  background-color: lightgrey; 
+  font-family: sans-serif;
+}
+
+h1 { 
+  text-align: center; 
+}
+
+p { 
+  font-size: 150%; 
+  padding: 10px; 
+}
+
+/*  Bordes y colores de los 6 bloques
+  background-color: #DBC9A6; 
+  border: #9B8F76 2px solid;
+ 
+
+
+  background-color: #91FF91; 
+  border: #64B064 4px solid;
+  z-index: 2;
+
+  background-color: #FFFFB3; 
+  border: #EBEBA5 4px solid;
+  
+
+  background-color: #C6FFFF; 
+  border: #98C4C4 4px solid;
+
+
+  background-color: #FFE5FF; 
+  border: #BAA7BA 4px solid;
+  
+
+  background-color: #FFB4B4; 
+  border: #865F5F 4px solid;
+*/
+
+p:hover { 
+  z-index: 3; 
+}

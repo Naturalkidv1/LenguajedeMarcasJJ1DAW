@@ -1,0 +1,10 @@
+div{border: 1px solid black; width: 30%; margin: 0 auto; position: relative;;}
+p{border:  5px solid red; width:  20%; margin: 2em auto; }
+.esp{padding:  1.5em}
+.otra{box-sizing: border-box; border: blue 7px solid;}
+#p1{position: static;}
+/*#p2{position: relative; top: 5em; right: 5em; z-index: 2;}*/ /*  z-index sirve para traer al frente o al fondo elementos */
+/* #p3{position: relative; bottom: 7em;} */
+#p2{position: absolute; bottom: 2em; right: 2em;}
+#p3 {position: fixed; top: 0.5em; left: 0.5em;overflow: auto;}
+#p4 {position: fixed; top: 50%; left: 50%;}

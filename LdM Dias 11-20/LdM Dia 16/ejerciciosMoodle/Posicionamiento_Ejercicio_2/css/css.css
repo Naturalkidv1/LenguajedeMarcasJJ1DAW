@@ -1,0 +1,106 @@
+p{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 3px;
+}
+
+#p1 {
+	text-align: right;
+
+}
+
+#p2 {
+	text-align: center;
+}
+
+#horizontal {
+	top: 50%;
+	right: 0;
+	width: 100%;
+	border: dashed #CCCCCC 1px;
+	position: absolute;
+	padding: 0;
+}
+
+#vertical{
+	left: 50%;
+	top: 0;
+	height: 100%;
+    position: absolute;
+	border: dashed #CCCCCC 1px;
+	padding: 0;
+}
+
+#verde{
+	border: limegreen 2px solid;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 70px;
+	left: 100px;
+}
+
+#celeste{
+	border: turquoise 2px solid;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	height: 400px;
+	margin-right: -200px;
+	margin-top: -200px;
+}
+
+#celeste_peque{
+	border: turquoise 2px solid;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 25%;
+	right: 25%;
+}
+
+#amarillo{
+	border: orange 2px solid;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+}
+
+#azul{
+	border: blue 2px solid;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#verde_oscuro {
+	border: green 2px solid;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#rojo {
+	border: red 2px solid;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#rosa {
+	border: pink 2px solid;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
