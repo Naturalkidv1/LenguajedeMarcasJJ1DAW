@@ -10,7 +10,117 @@
 </head>
 <body>
 
-<p> asdfas </p>
+<span> Para usar clases sin necesidad de otros elementos, span</span>
+<div> funciona similar a span</div>
+
+<form action="" method="post" enctype="multipart/form-data"> <!-- action sirve para indicar el destino del formulario, method puede ser post o get -->
+
+			<p> <label for="nombre3"> Etiqueta </label> 	<input type="text" name="nombre3" id="nombre3" placeholder="placeholder" size="50" maxlength="9" required=""/></p>
+			<!-- label usa for para anexarse al input y se puede colocar depende de donde convenga, delante o detrás; 	type indica el tipo, name es obligatorio, id anexa a label, placeholder coloca un texto que desaparece, value lo coloca directamente, size indica el tamaño, maxlength la máxima capacidad de caracteres, y required, dicta si es obligatorio -->
+			<p> <input type="password" id="clave" name="clave" placeholder="contraseña"/> </p>
+			<p> <input type="checkbox" name="casilla" id="acepto" checked required=""/> </p> <!-- checked indica si está marcado previamente -->
+
+			<p>
+			<input type="radio" name="sexo" id="hombre" value="hombre" checked/> <label for="hombre"> Hombre </label>
+			<input type="radio" name="sexo" id="mujer" value="mujer"/> <label for="mujer"> Mujer </label>
+			</p>
+
+			<p> <input type="submit" name="Enviar" value="Enviar"/>
+			<input type="reset" name="BtnEnviar" value="Borrar todo"/> </p>
+
+			<p> <input type="file" name="adjunto" id="foto"/> </p>
+
+			<p> <textarea id="descripcion" name="descripcion" cols="40" rows="5" > textarea </textarea> </p> <!-- cols y rows indica su tamaño-->
+
+			<p> <select id="impuestos" name="impuestos"> <!-- size="n" (tamaño) multiple="multiple" (elec. multi) --> 
+  				<optgroup label="optgroup"> 	
+  					<option value="4%" selected="selected"> option </option> <!--  selected="selected" para tenerla preseleecionada -->
+ 					<option value="7%"> 7% </option>
+  				</optgroup>
+  				<optgroup label="Altos Impuestos"> 	
+  					<option value="16%">16%</option>
+ 					<option value="25%">25%</option>
+ 				</optgroup> 
+			</select> </p>
+		</form>
+
+<p> &nbsp; espacio en blanco</p>
+
+<blockquote cite="Esto es un blockquote"> blockquote (funciona como p) <br/> 
+		<acronym title="Hyper Text Markup Language">HTML</acronym> es un acronym. <br/>
+		<abbr title="página">pag</abbr> es un abbr (abreviatura) <br/>
+		<cite>  cite </cite> 
+</blockquote>
+
+<ul>
+	<li>Elemento lista no ordenada (ul) (li) </li>
+	
+</ul>
+
+<ol>
+	<li>Elemento lista ordenada (ol) (li) </li>
+	
+</ol>
+
+<dl>
+	<dt>Elemento lista de definiciones (dl) </dt>
+	<dd> definicion (dd) </dd>
+	
+</dl>
+
+<table align = "center" border="1"> <!-- border define su borde -->
+			<tr>  
+				<td> tr define las columnas </td>
+
+			<tr> 
+				<th>  th define los encabezados </th>
+				 
+			</tr>
+			
+			<tr>  
+				<td> td define las columnas </td>
+			
+			<tr align="center"> 
+				<th scope="col"> scope  pone las cosas en negritas y en el centro, col para columnas, row para filas </th>
+				
+			</tr>
+
+		</table>
+
+		<h1> colspan </h1>
+			
+		<table align="center" border="1">
+			
+			<tr>
+				<td align="center" colspan= "2">  A </td>
+				
+			</tr>
+			
+			<tr>
+				<td> B </td>
+				<td> C </td>
+			</tr>
+			
+		</table>
+		
+			<h1> rowspan </h1>
+			
+				<table align="center" border="1">
+			
+			<tr>
+				<td >  A </td>
+				<td rowspan="2"> B </td>
+			</tr>
+			
+			<tr>
+				
+				<td> C </td>
+			</tr>
+
+		</table>
+
+
+			<hr>
 
 </body>
 

@@ -1,7 +1,42 @@
 /* estructura básica de css -> elemento{atributos}, si es una clase: .nombreClase{atributos}, si es un id: #nombreID{atributos} 
 los atributos se separan con ";", algunos elementos pueden estar con un mismo atributo*/
 
-body{background-color: lightgray;
-border: red 3px solid}
+.esenciales{
+	padding: 0 /*es el unico que no necesita una marca de tamaño*/;
+	margin;
+}
 
-p{border-left-style: dotted;}
+/*bordes*/
+.ejemploBordes{border-left-style: dotted;
+	border-left: dashed;
+	border-bottom: solid;
+	border-top: double;
+	border:2px red;}
+
+/*background*/
+body{
+	background: lightblue url("../img/blanco.jpg") repeat-x 16px 16px
+}
+
+/*font*/
+p{
+	font-style: oblique /*o*/ bold /*o*/ italic;
+	font-size: 3em ;
+	text-decoration: underline;
+	text-align: center right left justify;
+
+}
+
+p:first-letter {
+		background: blue;
+		text-transform: uppercase lowercase;
+}
+
+p:hoover {
+	z-index: 3;
+}
+
+/*Posicionamiento*/
+*{
+	position:  relative/*piensa en lo de oscar wilde*/ fixed /*se mueven si mueves el scroll*/ absolute /*el que usamos casi siempre*/ ;
+}
