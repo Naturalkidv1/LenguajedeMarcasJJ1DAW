@@ -27,7 +27,7 @@ p {
   .verde{background-color: #91FF91; 
   border: #64B064 4px solid;
   text-align: center;
-  position: fixed;
+  position: absolute;
   width: 25%;
   top:  45%;
   left: 30%;
@@ -39,7 +39,7 @@ p {
   .amarillo{background-color: #FFFFB3; 
   border: #EBEBA5 4px solid;
   text-align: center;
-  position: fixed;
+  position: absolute;
   width: 25%;
   top:  22%;
   left: 5%;
@@ -49,7 +49,7 @@ p {
   .celeste{background-color: #C6FFFF; 
   border: #98C4C4 4px solid;
   text-align: center;
-  position: fixed;
+  position: absolute;
   width: 25%;
   top:  22%;
   left: 55%;
@@ -59,7 +59,7 @@ p {
   .lila{background-color: #FFE5FF; 
   border: #BAA7BA 4px solid;
   text-align: center;
-  position: fixed;
+  position: absolute;
   width: 25%;
   top:  72%;
   left: 5%;
@@ -69,7 +69,7 @@ p {
   .rojo{background-color: #FFB4B4; 
   border: #865F5F 4px solid;
   text-align: center;
-  position: fixed;
+  position: absolute;
   width: 25%;
   top:  72%;
   left: 55%;

@@ -1,0 +1,7 @@
+/* estructura básica de css -> elemento{atributos}, si es una clase: .nombreClase{atributos}, si es un id: #nombreID{atributos} 
+los atributos se separan con ";", algunos elementos pueden estar con un mismo atributo*/
+
+body{background-color: lightgray;
+border: red 3px solid}
+
+p{border-left-style: dotted;}
