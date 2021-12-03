@@ -1,0 +1,145 @@
+*{
+font-family: sans-serif;
+
+}
+
+#css{
+
+box-sizing: border-box;
+position: fixed;
+top: 90%; right: 1%;
+border-spacing: 5%;
+
+}
+
+td{
+  width: 20px;
+  height: 20px;
+  border: solid black 2px;
+  text-align: center;
+
+
+}
+
+caption{
+
+	font: 10px bold;
+
+}
+
+table{
+
+	border-collapse: collapse;
+}
+
+.azul{
+background-color: blue;
+color: white;
+margin-bottom: -10px;
+
+
+}
+
+.verde{
+
+background-color: green;
+color: white;
+border: solid black 2px;
+	
+}
+
+.rojo{
+
+background-color: red;
+color: white;
+border: solid black 2px;
+	
+}
+
+.amarillo{
+
+background-color: yellow;
+border: solid black 2px;
+	
+}
+
+address{
+
+position: fixed;
+bottom: 0.5em;
+font-size: 0.8em;
+
+}
+
+html{
+
+	border-top: 3em lightblue solid;
+}
+
+h1{
+
+	text-transform: uppercase;
+	text-align: right;
+	position: absolute;
+	right: 0.5%;
+	top: -1%;
+	letter-spacing: 0.20em;
+	font-style: italic;
+
+}
+
+h2{
+
+	background-color: lightblue;
+	border-top: solid black 2px;
+	padding-left: 0.5em;
+
+}
+
+p{
+
+	padding-left: 0.5em;
+
+}
+
+#bloque{
+
+	border: solid black 2px;
+	border-top: none;
+	
+
+}
+
+
+#principal{
+
+	width: 50%;
+	
+	margin-left: 25%;
+
+}
+
+#indice{
+
+	list-style: none;
+	margin-left: -2.5em;
+	position: fixed;
+	top: 2.3em;
+
+}
+
+a:hover{
+	color: black;	
+}
+a:link{
+	color: black;	
+}
+a:visited{
+	color: black;	
+}
+a:focus{
+	color: black;	
+}
+a:active{
+	color: black;	
+}

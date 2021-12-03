@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+	<title> Formulario </title>
+	<meta charset="UTF-8" />
+	<link href="../Imagenes/favicon.jpeg" rel="shortcut icon"/>
+	
+
+</head>
+
+<body>
+
+<form action="../index.html" method="post" enctype="multipart/form-data">
+
+<h1> Formulario de entrada </h1>
+
+
+<fieldset>
+<table>
+<legend> Datos personales </legend>
+
+<tr>
+<td>
+<label for="nombre"> Nombre: </label> 
+</td>
+<td>
+<input type="text" id="nombre" name="nombre"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Sexo:
+</td>
+
+<td>
+<input type="radio" id="hombre" name="sexo" value="hombre" checked="checked"/> <label for="hombre"> Hombre </label> 
+<input type="radio" id="mujer" name="sexo" value="mujer"/> <label for="mujer"> Mujer </label> 
+</td>
+</tr>
+
+<tr>
+<td>
+Vehículos:
+</td>
+
+<td>
+<input type="checkbox" id="bici" name="vehiculo" value="bici"/> <label for="bici" > Bici: </label> 
+<input type="checkbox" id="coche" name="vehiculo" value="coche"/> <label for="coche"> Coche: </label> 
+</td>
+</tr>
+
+<tr>
+<td>
+Bebida:
+</td>
+
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>
+Comentarios:
+</td>
+
+<td>
+<textarea> </textarea>
+</td>
+</tr>
+
+</table>
+
+<p> <input type="submit" name="Enviar" value="Pág. Inicio"/> </p>
+
+
+</fieldset>
+</form>
+
+</body>
+
+</html>
