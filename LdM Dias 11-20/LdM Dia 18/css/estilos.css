@@ -1,0 +1,55 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div{
+	border: solid black 1px; 
+	width: 33.33%;
+	height: 33.33%;
+	float: left;
+}
+
+#d1{
+	
+	border-color:  red;
+	background: red;
+}
+#d2{
+	border-color: green;
+	background: green;
+}
+#d3{
+	border-color: blue;
+	background: blue;
+}
+#d4{
+	border-color: yellow;
+	background: yellow;
+}
+#d5{
+	border: pink;
+	background: pink;
+}
+#d6{
+	border-color: purple;
+	background: purple;
+}
+#d7{
+	border-color: turquoise;
+	background: turquoise;
+}
+#d8{
+	border-color: lime;
+	background: lime;
+}
+#d9{
+	border: brown;
+	background: brown;
+}
