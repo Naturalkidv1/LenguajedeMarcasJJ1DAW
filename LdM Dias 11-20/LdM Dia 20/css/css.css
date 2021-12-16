@@ -1,0 +1,161 @@
+.cuadrado{
+	border: 2px green solid;
+	height: 50px;
+	width: 50px;
+}
+
+.circulo{
+	border: 2px black solid;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.rombo{
+	border: 2px red solid;
+	height: 50px;
+	width: 50px;
+	transform: rotate(45deg) skew(15deg,15deg);
+}
+
+.tri1{
+	border-top: 50px red solid;
+	border-right: 50px solid transparent;
+	/*border-bottom: 50px solid transparent;*/
+	border-left: 50px solid transparent;
+	height: 0;
+	width: 0;
+	
+}
+
+.tri4{
+	border-top: 50px transparent solid;
+	/*border-right: 50px solid transparent;*/
+	border-bottom: 50px solid transparent;
+	border-left: 50px solid yellow;
+	height: 0;
+	width: 0;
+	
+}
+
+.tri2{
+	border-top: 50px transparent solid;
+	border-right: 50px solid green;
+	border-bottom: 50px solid transparent;
+	/*border-left: 50px solid transparent;*/
+	height: 0;
+	width: 0;
+	
+}
+
+.tri3{
+	/*border-top: 50px transparent solid;*/
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid blue;
+	border-left: 50px solid transparent;
+	height: 0;
+	width: 0;
+	
+}
+
+.paralelogramo{
+	
+	border: 2px purple solid;
+	height: 50px;
+	width: 50px;
+	transform: skew(15deg);
+
+}
+.paralelogramo2{
+	
+	border: 2px purple solid;
+	height: 50px;
+	width: 50px;
+	transform: skew(-15deg);
+
+}
+
+.fig1{
+
+	/*border-top: 50px red solid;*/
+	/*border-right: 50px solid green;*/
+	border-bottom: 50px solid transparent;
+	border-left: 50px solid pink;
+	height: 100px;
+	width: 0;
+}
+
+.fig2{
+	/*border-top: 50px red solid;*/
+	border-right: 50px solid green;
+	border-bottom: 50px solid transparent;
+	/*border-left: 50px solid pink;*/
+	height: 100px;
+	width: 0;
+
+}
+
+.fig3{
+	border-top: 50px transparent solid;
+	/*border-right: 50px solid green;*/
+	/*border-bottom: 50px solid transparent;*/
+	border-left: 50px solid pink;
+	height: 100px;
+	width: 0;
+
+}
+
+.fig4{
+	border-top: 50px transparent solid;
+	border-right: 50px solid green;
+	/*border-bottom: 50px solid transparent;*/
+	/*border-left: 50px solid pink;*/
+	height: 100px;
+	width: 0;
+
+}
+
+.fig5{
+	/*border-top: 50px red solid;*/
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid blue;
+	/*border-left: 50px solid pink;*/
+	height: 0;
+	width: 100px;
+
+}
+
+.fig6{
+	border-top: 50px red solid;
+	border-right: 50px solid transparent;
+	/*border-bottom: 50px solid blue;*/
+	/*border-left: 50px solid pink;*/
+	height: 0;
+	width: 100px;
+
+}
+
+.fig7{
+	/*border-top: 50px red solid;*/
+	/*border-right: 50px solid transparent;*/
+	border-bottom: 50px solid blue;
+	border-left: 50px solid transparent;
+	height: 0;
+	width: 100px;
+
+}
+
+.fig8{
+	border-top: 50px red solid;
+	/*border-right: 50px solid transparent;*/
+	/*border-bottom: 50px solid blue;*/
+	border-left: 50px solid transparent;
+	height: 0;
+	width: 100px;
+
+}
+
+p{
+	font-style:  italic;
+	font-weight: bold;
+}
