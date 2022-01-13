@@ -1,0 +1,47 @@
+.disc{
+	list-style: disc;
+}
+
+.circle{
+	list-style: circle;
+}
+
+.square{
+	list-style: square;
+}
+
+.lr{
+	list-style: lower-roman;
+}
+
+.lg{
+	list-style: lower-greek;
+}
+
+.ul{
+	list-style: upper-latin;
+}
+
+.ll{
+	list-style: lower-latin;
+}
+
+.armenian{
+	list-style: armenian;
+}
+
+.ua{
+	list-style: upper-alpha;
+}
+
+.zero{
+	list-style: decimal-leading-zero;
+}
+
+ul{
+	border: solid 1px #CCC;
+	float: left;
+	margin: 1em;
+	padding-right: 0.25em;
+
+}

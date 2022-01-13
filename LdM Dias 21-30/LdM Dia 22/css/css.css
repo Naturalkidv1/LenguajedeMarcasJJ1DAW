@@ -1,0 +1,66 @@
+a {color: red;
+text-decoration: overline green; 
+/*text-decoration: none;
+border-top: 1px solid green;*/
+}
+a:visited{
+	color: orange;
+}
+a:hover{
+	color: pink;
+	text-decoration: none;
+}
+a:active{
+	color: lightblue;
+}
+
+
+/*--------------*/
+
+.disc{
+	list-style: disc;
+}
+
+.circle{
+	list-style: circle;
+}
+
+.square{
+	list-style: square;
+}
+
+.lr{
+	list-style: lower-roman;
+}
+
+.lg{
+	list-style: lower-greek;
+}
+
+.ul{
+	list-style: upper-latin;
+}
+
+.ll{
+	list-style: lower-latin;
+}
+
+.armenian{
+	list-style: armenian;
+}
+
+.ua{
+	list-style: upper-alpha;
+}
+
+.zero{
+	list-style: decimal-leading-zero;
+}
+
+ul{
+	border: solid 1px #CCC;
+	float: left;
+	margin: 1em;
+	padding: 0.5em;
+
+}
