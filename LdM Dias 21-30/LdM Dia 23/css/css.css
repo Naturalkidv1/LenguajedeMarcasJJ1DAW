@@ -1,0 +1,24 @@
+table,td{
+	border: 1px solid black;
+}
+
+table{
+	width: 50%;
+	margin: 5% auto;
+	text-align:  center;
+	empty-cells: hide;
+
+}
+
+#tabla1 {
+	border-collapse: collapse;
+	/*border-spacing: 0;*/
+}
+
+#tabla2 {
+	border-spacing: 5px;
+}
+
+caption{
+	caption-side: bottom;
+}
