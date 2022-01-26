@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+  width: 480px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+#menu li > a{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+
+}
+#menu li > a:hover{
+  color: white;
+  background-color: #7c7c7c;
+}
+#menu > li{
+  float: left;
+  text-align:center
+}
+#submenu2{
+  margin-left: 120px;
+  margin-top: -38.75px;
+  position: fixed;
+  float: left;
+}
+#menu li > ul{
+  display: none;
+}
+#menu li:hover> ul {
+  display:block;
+}
