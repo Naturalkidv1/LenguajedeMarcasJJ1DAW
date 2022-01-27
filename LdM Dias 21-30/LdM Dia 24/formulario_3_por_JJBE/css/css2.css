@@ -1,0 +1,43 @@
+html{
+
+	width: 100;
+	box-sizing: border-box;
+}
+
+*{
+	box-sizing: inherit;
+
+}
+
+fieldset{
+	position: relative;
+	width: 48%;
+	float: left	;
+	display: block;
+	margin-bottom: 1em;
+}
+
+.peque{
+	width: 40%;
+}
+
+.med{
+	width: 70%;
+}
+
+.gran{
+	width: 95%;
+}
+
+.enlace	{
+	display: block;
+	margin:	1em;
+}
+
+.enlace{
+	display: block;
+}
+
+input{
+		display: block;
+}

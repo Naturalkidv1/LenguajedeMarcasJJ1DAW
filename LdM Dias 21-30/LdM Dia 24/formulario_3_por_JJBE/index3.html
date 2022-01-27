@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title> Ejemplo formulario 2 columnas </title>	
+<link href="css/css2.css" rel="stylesheet" />
+<meta charset="UTF-8"/>
+	</head>
+
+	<body>
+
+		<form action="index.html" method="post" enctype="multipart/form-data">
+
+			<fieldset id="fs1">
+				<legend> Alta en el servicio </legend>
+		<div>
+			
+
+			<div > <!-- 70 -->
+				<label for="apell"> Apellidos: </label> 
+				<input class="med" type="text" name="apell" id="apell"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="nombre"> Nombre: </label> 
+				<input class="med" type="text" name="nombre" id="nombre"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="nacido"> Nacido en: </label> 
+				<input class="med" type="text" name="nacido" id="nacido"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="prov1"> Provincia: </label> 
+				<select name="prov1" id="prov1">
+					<option> </option>
+					<option selected="selected"> Valencia </option>
+				</select>
+			</div>
+			<div > <!-- 70 -->
+				<label for="dom1"> Domicilio: </label> 
+				<select name="dom1" id="dom1">
+					<option> </option>
+				</select>
+				<input class="med" type="text" name="dom" id="dom"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="loc"> Localidad: </label> 
+				<input class="med" type="text" name="loc" id="loc"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="prov2"> Provincia: </label> 
+				<select name="prov2" id="prov2">
+					<option> </option>
+					<option selected="selected"> Valencia </option>
+				</select>
+			</div>
+		</div>
+
+		<div>
+			<div > <!-- 70 -->
+				<label for="dni"> DNI: </label> 
+				<input class="med" type="text" name="dni" id="dni"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="fecha"> Fecha de Nacimiento (dd/mm/aaaa): </label> 
+				<input class="med" type="text" name="fecha" id="fecha"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="cp"> Código Postal: </label> 
+				<input class="med" type="text" name="cp" id="cp"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="tf"> Teléfono: </label> 
+				<input class="med" type="text" name="tf" id="tf"/>
+			</div>
+
+		</div>
+
+			</fieldset>
+			
+			<div class="enlace"><button  name="btnEnviar1"> Enviar </button></div>
+
+		</form>
+
+	</body>
+</html>
