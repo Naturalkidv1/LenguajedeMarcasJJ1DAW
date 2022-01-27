@@ -1,0 +1,33 @@
+/*.enlace{
+	border: none;
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+	background: none;
+}
+*/
+/*
+label, button{
+	display: block;
+	margin: 0.5em 0;
+}
+
+input{ 
+	padding: 0.2em;
+
+}
+
+input:focus{ 
+
+	
+}
+*/
+
+div{
+	margin: 0.5em 0;
+}
+
+label{
+	float: left;
+	width: 120px;
+}
