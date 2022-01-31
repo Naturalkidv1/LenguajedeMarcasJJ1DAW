@@ -1,0 +1,154 @@
+html{
+
+	width: 100;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*{
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	height: 100%;
+}
+
+
+fieldset{
+	background: lightgray;
+	width: 90%;
+	float: left	;
+	display: block;
+	margin-left: 5em;
+	margin-top: 1em;
+	height: 100%;
+}
+
+legend{
+	background: white;
+	border: 2px solid lightgray;
+	margin-left: 1em;
+}
+
+
+#parte1{
+
+
+	width: 50%;
+	float: left;
+
+
+}
+
+
+#parte2{
+
+
+	float: left;
+	width: 50%;
+}
+
+.peque{
+	width: 20%;
+}
+
+.med{
+	width: 50%;
+}
+
+.gran{
+	width: 90%;
+}
+
+.enlace	{
+	display: block;
+	margin:	1em;
+}
+
+
+input{
+		display: block;
+}
+
+select{
+	display: block;
+	width: 30%;
+}
+
+
+#l3{
+
+
+
+}	
+
+#parte1 div{
+
+	margin-left: 1em;
+	float: left;
+	width: 45%;
+	padding: 1em 0;
+
+
+
+}
+
+#parte2 > div{
+
+	margin-left: 1em;
+	padding: 1em 0;
+	
+
+}
+
+#parte3 > div{
+
+float: right;
+
+margin-left: -0.5em;
+
+}
+
+button{
+
+	padding: 0.25em;
+
+}
+
+#domtam{
+}
+
+.barratam{
+}
+
+fieldset > div{
+}
+
+#red{
+
+	color: red;
+	text-decoration: underline;
+
+}
+
+h1{
+	position: absolute;
+	top: 2.5%;
+	left: 2.5%;
+	background: lightgray;
+	text-align: center;
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+form{
+
+	position: absolute;
+	top: 6%;
+	left: 5%;
+
+}

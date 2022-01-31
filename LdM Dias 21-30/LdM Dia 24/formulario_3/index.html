@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title> Formulario 3 </title>	
+<link href="css/css.css" rel="stylesheet" />
+<meta charset="UTF-8"/>
+	</head>
+
+	<body>
+
+		<h1>  EJEMPLO DE FORMULARIO </h1>
+		
+		<form action="index.html" method="post" enctype="multipart/form-data">
+
+			<fieldset id="fs1">
+				<legend> Datos personales </legend>
+		<div id="parte1">
+			
+
+			<div> 
+				<label for="apell"> <span id="red">A</span>pellidos: </label> 
+				<input class="med" type="text" name="apell" id="apell"/>
+			</div>
+			<div>
+				<label for="nombre"> N<span id="red">o</span>mbre: </label> 
+				<input class="med" type="text" name="nombre" id="nombre"/>
+			</div>
+
+			<div> 
+				<label for="nacido"> <span id="red">N</span>acido en: </label> 
+				<input class="med" type="text" name="nacido" id="nacido"/>
+			</div>
+			<div>
+				<label for="prov1"> Provincia: </label></br> 
+				<select name="prov1" id="prov1">
+					<option> </option>
+					<option selected="selected"> Valencia </option>
+				</select>
+			</div>
+
+			<!--<div id="l3"> -->
+			<div id="domtam"> 
+				<label for="dom1"> Do<span id="red">m</span>icilio: </label> </br>
+				<select name="dom1" id="dom1">
+					<option> </option>
+				</select>
+			</div>
+			<div class="barratam">
+				</br>
+				<input class="gran" type="text" name="dom" id="dom"/>
+			</div>
+			<!--</div> -->
+
+			<div>
+				<label for="loc"> <span id="red">L</span>ocalidad: </label> 
+				<input class="med" type="text" name="loc" id="loc"/>
+			</div>
+			<div>
+				<label for="prov2"> Provincia: </label> </br>
+				<select name="prov2" id="prov2">
+					<option> </option>
+					<option selected="selected"> Valencia </option>
+				</select>
+			</div>
+			</div>
+		</div>
+
+		<div id="parte2">
+			<div > <!-- 70 -->
+				<label for="dni"> <span id="red">D</span>NI: </label> 
+				<input class="peque" type="text" name="dni" id="dni"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="fecha"> <span id="red">F</span>echa de Nacimiento (dd/mm/aaaa): </label> 
+				<input class="peque" type="text" name="fecha" id="fecha"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="cp"> <span id="red">C</span>ódigo Postal: </label> 
+				<input class="peque" type="text" name="cp" id="cp"/>
+			</div>
+			<div > <!-- 70 -->
+				<label for="tf"> <span id="red">T</span>eléfono: </label> 
+				<input class="peque" type="text" name="tf" id="tf"/>
+			</div>
+
+		</div>
+
+			
+		<div id="parte3">
+			<div class="enlace"><button  name="btnDelete1"> Enviar  </button></div>
+			<div class="enlace"><button  name="btnEnviar1">Borrar todo </button></div>
+		</div>
+
+			</fieldset>
+
+		</form>
+
+	</body>
+</html>
