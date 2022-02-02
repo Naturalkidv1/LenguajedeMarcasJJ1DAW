@@ -147,8 +147,8 @@ h1{
 
 form{
 
-	position: absolute;
-	top: 6%;
-	left: 5%;
+	position: relative;
+	top: 7%;
+	left: 0 auto;
 
 }
