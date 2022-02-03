@@ -1,0 +1,85 @@
+html{
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+
+}
+
+body{
+	background-color: #CCC;
+	
+}
+
+#contenedor{
+
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+#cabecera{
+
+background-color: yellow;
+font-size: 12pt;
+text-align: center;
+font-family: Verdana;
+width: 100%;
+}
+
+
+#derecha{
+
+
+background-color: lightblue;
+font-size: 10pt;
+overflow: hidden;
+font-family: Verdana;
+text-align: center;
+
+
+}
+
+#central{
+
+background-color: green;
+font-size: 12pt;
+overflow: hidden;
+width: 500px;
+float: left;
+margin-right: 1em;
+font-family: Verdana;
+text-align: justify;
+}
+
+
+#centro{
+
+	overflow: hidden;
+	margin: 1em 0;
+
+}
+#izquierda{
+
+float: left;
+background-color: red;
+font-size: 10pt;
+width: 250px;
+margin-right: 1em;
+text-align: center;
+font-family: Verdana;
+	
+}
+
+#pie{
+background-color: brown;
+font-size: 8pt;
+width: 100%;
+color: yellow;
+text-align: center;
+
+}

@@ -1,0 +1,65 @@
+html{
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+
+}
+
+body{
+	background-color: #CCC;
+	text-align: center;
+	font-family: Verdana;
+}
+
+#contenedor{
+
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+#cabecera{
+
+background-color: green;
+font-size: 12pt;
+
+}
+
+
+#derecha{
+
+
+background-color: lightblue;
+font-size: 13pt;
+overflow: hidden;
+
+}
+
+
+#centro{
+
+	overflow: hidden;
+	margin: 1em 0;
+
+}
+#izquierda{
+
+float: left;
+background-color: red;
+font-size: 13pt;
+width: 300px;
+margin-right: 1em;
+	
+}
+
+#pie{
+background-color: yellow;
+font-size: 8pt;
+width: 100%;
+
+}
