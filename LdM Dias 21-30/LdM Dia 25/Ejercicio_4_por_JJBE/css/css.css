@@ -1,0 +1,150 @@
+html{
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+
+}
+
+body{
+	background-color: #white;
+	
+}
+
+#contenedor{
+
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+
+
+
+#derecha{
+
+
+background-color: white;
+font-size: 12pt;
+overflow: hidden;
+font-family: Verdana;
+text-align: center;
+
+
+}
+
+#central{
+
+background-color: green;
+font-size: 12pt;
+overflow: hidden;
+width: 500px;
+float: left;
+font-family: Verdana;
+text-align: justify;
+}
+
+
+#centro{
+
+	overflow: hidden;
+
+
+}
+#izquierda{
+padding: 0.25em;
+float: left;
+background-color: lightgray;
+font-size: 12pt;
+width: 250px;
+text-align: center;
+font-family: Verdana;
+border-right: 1px solid black;
+	
+}
+
+/* PIE */
+
+#pie{
+background-color: brown;
+font-size: 12pt;
+width: 100%;
+color: white;
+background-color: black;
+text-align: center;
+padding: 0.5em;
+}
+
+#pie a{
+
+	color: lightsteelblue;
+
+}
+
+/* CABECERA */
+
+#cabecera{
+
+width: 100%;
+}
+
+#cabecera h1{
+
+font-family: sans-serif;
+text-align: center;
+padding: 0.5em;
+
+background: url("../../Maquetacion4/imagenes/fondo1.jpg") repeat; 
+color: white;
+
+width: 100%;
+/*height: 19.9%;*/
+height: 120px;
+font-size: 300%;
+
+
+}
+
+#cabecera ul{
+	
+	position: relative;
+	top: 0.00000001%;
+	list-style: none;
+	width: 100%;
+	overflow: hidden;
+	background: url("../../Maquetacion4/imagenes/boton-menu.jpg") repeat;
+}
+
+#cabecera li{
+	font-size: 75%;
+	padding: 4px;
+	text-align: center;
+	position: relative;
+	left: 35%;
+	float: left;
+	height: 1.95em;
+	width: calc(100%/12);
+}
+
+#cabecera a{
+	color: white;
+	text-decoration: none;
+	padding-left: 1.25em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	display: block;
+}
+
+#cabecera li:hover{
+	
+	background: url("../../Maquetacion4/imagenes/boton-menu2.jpg") repeat;
+	
+}
+
+#cabecera a:hover{
+	color: black;
+}
