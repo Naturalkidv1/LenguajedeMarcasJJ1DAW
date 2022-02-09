@@ -289,7 +289,7 @@ textarea{
 
 
 #divb1{
-	background: blue;
+
 	text-align: right;
 	font-weight: 600;
 	border-top: none;
@@ -301,7 +301,7 @@ textarea{
 }
 
 #divb2{
-	background: red;
+
 	width: 50%;
 	float:right;
 	text-align: left;
