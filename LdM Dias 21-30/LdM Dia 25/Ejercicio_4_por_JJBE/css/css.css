@@ -11,15 +11,15 @@ html{
 }
 
 body{
-	background-color: #white;
+	background-color: white;
 	
 }
 
 #contenedor{
 
-	width: 90%;
-	margin: 0 auto;
-
+	width: 100%;
+	height: 100%;
+	background-color: blue;
 }
 
 
@@ -33,20 +33,11 @@ font-size: 12pt;
 overflow: hidden;
 font-family: Verdana;
 text-align: center;
-
+width: 80%;
+height: 100%;
 
 }
 
-#central{
-
-background-color: green;
-font-size: 12pt;
-overflow: hidden;
-width: 500px;
-float: left;
-font-family: Verdana;
-text-align: justify;
-}
 
 
 #centro{
@@ -60,11 +51,11 @@ padding: 0.25em;
 float: left;
 background-color: lightgray;
 font-size: 12pt;
-width: 250px;
+width: 20%;
 text-align: center;
 font-family: Verdana;
 border-right: 1px solid black;
-	
+height: 100%;
 }
 
 /* PIE */
@@ -147,4 +138,174 @@ font-size: 300%;
 
 #cabecera a:hover{
 	color: black;
+}
+
+
+
+/* FORM */
+
+#contenedor h3{
+
+	text-align: left;
+	padding: 2em 1em;
+
+
+}
+
+
+
+
+/* NOMBRE */
+
+#div1 {
+
+	text-align: right;
+	font-weight: 600;
+	border-top: 1px solid #CCC;
+	width: 50%;
+	float: left;
+	padding: 1em 0.5em;
+	height: 8%;
+
+}
+
+#div2{
+
+	width: 50%;
+	float:right;
+	text-align: left;
+	border-top: 1px solid #CCC;
+	padding: 1em 0.5em;
+	height: 8%;
+	
+}
+
+/* EMAIL */
+
+#div3 {
+
+	text-align: right;
+	font-weight: 600;
+	border-top: 1px solid #CCC;
+	width: 50%;
+	float: left;
+	padding: 1em 0.5em;
+	height: 8%;
+}
+
+#div4{
+
+	width: 50%;
+	float:right;
+	text-align: left;
+	border-top: 1px solid #CCC;
+	padding: 1em 0.5em;
+	height: 8%;
+}
+
+/* MENSAJE */
+
+#divmsg1{
+
+
+	text-align: right;
+	font-weight: 600;
+	border-top: 1px solid #CCC;
+	width: 50%;
+	float: left;
+	padding: 1em 0.5em;
+	height: 20%;
+}
+
+#divmsg2{
+
+
+	width: 50%;
+	float:right;
+	text-align: left;
+	border-top: 1px solid #CCC;
+	padding: 1em 0.5em;
+	height: 20%;
+
+}
+
+textarea{
+	resize: none;
+}
+
+/* GENERO */
+
+#div5 {
+
+	text-align: right;
+	font-weight: 600;
+	border-top: 1px solid #CCC;
+	width: 50%;
+	float: left;
+	padding: 1em 0.5em;
+	height: 8%;
+
+}
+
+#div6{
+
+	width: 50%;
+	float:right;
+	text-align: left;
+	border-top: 1px solid #CCC;
+	padding: 1em 0.5em;
+	height: 8%;
+	
+}
+
+/* COLOR */
+
+#div7 {
+
+	text-align: right;
+	font-weight: 600;
+	border-top: 1px solid #CCC;
+	width: 50%;
+	float: left;
+	padding: 1em 0.5em;
+	height: 15%;
+
+}
+
+#div8{
+
+	width: 50%;
+	float:right;
+	text-align: left;
+	border-top: 1px solid #CCC;
+	padding: 1em 0.5em;
+	height: 15%;
+	
+}
+
+/* ALT */
+
+/* BOTONES */
+
+
+#divb1{
+	background: blue;
+	text-align: right;
+	font-weight: 600;
+	border-top: none;
+	width: 50%;
+	float: left;
+	padding: 1em 0.5em;
+	height: 10%;
+	
+}
+
+#divb2{
+	background: red;
+	width: 50%;
+	float:right;
+	text-align: left;
+	border-top: none;
+	padding: 1em 0.5em;
+	height: 10%;	
 }

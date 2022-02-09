@@ -34,27 +34,29 @@ width: 100%;
 
 #derecha{
 
-
+float: right;
 background-color: lightblue;
 font-size: 10pt;
 overflow: hidden;
 font-family: Verdana;
 text-align: center;
 width: 18%;
+margin-left: 1em;
 
 
 }
+
 
 #central{
 
 background-color: green;
 font-size: 12pt;
 overflow: hidden;
-width: 60%;
-float: left;
+display: fixed;
 margin-right: 1em;
 font-family: Verdana;
 text-align: justify;
+margin-left: 1em;
 }
 
 
@@ -70,7 +72,9 @@ float: left;
 background-color: red;
 font-size: 10pt;
 width: 180px;
+overflow: hidden;
 margin-right: 1em;
+
 text-align: center;
 font-family: Verdana;
 	
