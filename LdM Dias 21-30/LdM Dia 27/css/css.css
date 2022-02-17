@@ -1,6 +1,7 @@
 html{
 	box-sizing: border-box;
 	height: 100%;
+
 }
 
 *{
@@ -9,9 +10,11 @@ html{
 	box-sizing: inherit;
 
 
+
 }
 
 body{
 	width: 100%;
-	background: beige;
+	background-image: url(../Imagenes/fondo.jpg);
+	background-size: cover;
 }
