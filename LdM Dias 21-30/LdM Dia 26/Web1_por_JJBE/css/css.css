@@ -1,0 +1,358 @@
+html{
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+
+
+}
+
+body{
+	width: 100%;
+	background: beige;
+}
+
+
+#cabecera{
+
+	background: grey;
+	width: 100%;
+	float: left;
+
+}
+
+#logo{
+	position: relative;
+	background-image: url(../material/Imagenes/fondo.jpg);
+	width: 14.75%;/*201px;*/
+	/*height: 19.2%;/*116px;*/
+	float: left;
+}
+
+#logoimg{
+
+	background-image: url(../material/Imagenes/logo.jpg);
+	background-repeat: no-repeat;
+	width: 201px;
+	height: 116px;
+	float: left;
+}
+
+#titulo{
+
+	background-image: url(../material/Imagenes/fondo.jpg);
+	float: left;
+	width: 85.25%;
+	/*height: 19.2%;*/
+	text-align: center;
+
+}
+
+
+
+#barramenu{
+	float: left;
+	background: darkgreen;
+	/*height: 5.1%;*/
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#barramenu li,span{
+	list-style: none;
+	padding: 0.5em 1em;
+	color: white;
+	border-right: 1px solid black;
+}
+
+#barramenu li{
+
+	float: left;
+
+}
+
+
+
+#barramenu a{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+#enlace1{
+
+	font-weight: bold;
+
+}
+
+#enlace2{
+
+	font-size: 12px;
+
+}
+
+#barramenu span{
+
+	float: right;
+	font-size: 12px;
+	line-height: 200%;
+
+}
+
+#cuerpo{
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+	float: left;
+
+
+}
+
+#derecha{
+
+	padding: 0 1.5em;
+	float: right;
+	width: 75%;
+
+
+}
+
+#puntos{
+
+	background: repeat url(../material/Imagenes/tres_puntos.jpg);
+	width: 100%;
+	height: 16px;
+}
+
+#derecha h2{
+
+	color: darkslategray;
+	font-weight: 300;
+	margin: 1em 0;
+
+}
+
+ .fondo{
+
+
+	height: 60px;
+	width: 45%;
+	padding: 0;
+
+}
+
+.fondo p{
+	padding: 0;
+	margin-bottom: 0;
+	padding:0 0 0 55px; line-height: 40px;
+
+}
+
+#derecha > div:hover{
+
+	background-color: #1a6900;
+	color: white;
+
+}
+
+#adm{
+
+	overflow: hidden;
+	background: url(../material/Imagenes/adminis.jpg) 0 center no-repeat white;
+
+	
+}
+
+#adm:hover{
+
+	background-color: #1a6900;
+	overflow: hidden;
+	background: url(../material/Imagenes/adminis_neg.jpg) 0 center no-repeat;
+
+}
+
+#bio{
+
+	overflow: hidden;
+	background: url(../material/Imagenes/biologia.jpg) 0 center no-repeat white;
+
+	
+}
+
+#bio:hover{
+
+	background-color: #1a6900;
+	overflow: hidden;
+	background: url(../material/Imagenes/biologia_neg.jpg) 0 center no-repeat;
+
+}
+
+#cla{
+
+	overflow: hidden;
+	background: url(../material/Imagenes/clasicas.jpg) 0 center no-repeat white;
+
+	
+}
+
+#cla:hover{
+
+	background-color: #1a6900;
+	overflow: hidden;
+	background: url(../material/Imagenes/clasicas_neg.jpg) 0 center no-repeat;
+
+}
+
+#eco{
+
+	overflow: hidden;
+	background: url(../material/Imagenes/economia.jpg) 0 center no-repeat white;
+
+	
+}
+
+#eco:hover{
+
+	background-color: #1a6900;
+	overflow: hidden;
+	background: url(../material/Imagenes/economia_neg.jpg) 0 center no-repeat;
+
+}
+
+#tec{
+
+	overflow: hidden;
+	background: url(../material/Imagenes/tecnologia.jpg) 0 center no-repeat white;
+
+	
+}
+
+#tec:hover{
+
+	background-color: #1a6900;
+	overflow: hidden;
+	background: url(../material/Imagenes/tecnologia_neg.jpg) 0 center no-repeat;
+
+}
+
+#rel{
+
+	overflow: hidden;
+	background: url(../material/Imagenes/religion.jpg) 0 center no-repeat white;
+
+	
+}
+
+#rel:hover{
+
+	background-color: #1a6900;
+	overflow: hidden;
+	background: url(../material/Imagenes/religion_neg.jpg) 0 center no-repeat;
+
+}
+
+#moo{
+
+	overflow: hidden;
+	background: url(../material/Imagenes/moodle.jpg) 0 center no-repeat white;
+
+	
+}
+
+#moo:hover{
+
+	background-color: #1a6900;
+	overflow: hidden;
+	background: url(../material/Imagenes/moodle_neg.jpg) 0 center no-repeat;
+
+}
+
+#izquierda{
+
+
+	float: left;
+	width: 23%;
+	margin-left: 1em;
+}
+
+
+
+
+#pie{
+	float: left;
+	background: darkgreen;
+	width: 98%;
+	margin: 0 1%;
+	height: 15%;
+	margin-bottom: 1px;
+
+}
+
+.blanco{
+
+	background: white;
+	border-radius: 5px;
+	padding: 0.5em;
+	margin-bottom: 20px;
+	border: 1px solid lightgrey;
+}
+
+.blanco h3{
+
+	display: inline;
+
+}
+
+.blanco img{
+
+	vertical-align:bottom;
+
+}
+
+#izquierda form{
+
+	border-top: 1px solid #CCC;
+	padding: 20px;
+
+}
+
+#usuario, #password{
+
+	width: 100%;
+
+} 
+
+#formulario > form > div{
+
+	margin-bottom: 1em;
+
+}
+
+#entrar{
+	float: left;
+	width: 18.5%;
+	margin-right: 1.5%;
+	color: white;
+	background: lightgreen;
+	border: 1px solid lightgreen;
+	border-radius: 5px;
+	margin-top: 4.5%;
+}
+
+#olvidaste{
+	float: left;
+	width: 78.5%;
+	margin-left: 1.5%;
+	color: white;
+	background: darkgreen;
+	border: 1px solid darkgreen;
+	border-radius: 5px;
+	padding: 0.50em 0.50em;
+}
