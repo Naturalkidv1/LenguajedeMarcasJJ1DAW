@@ -9,12 +9,316 @@ html{
 	margin: 0;
 	box-sizing: inherit;
 
-
-
 }
 
 body{
 	width: 100%;
 	background-image: url(../Imagenes/fondo.jpg);
 	background-size: cover;
+}
+
+#todo{
+
+
+float: left;
+width: 830px;
+margin-left: 20%;
+
+}
+
+#encabezado{
+
+
+float: left;
+width: 100%;
+
+
+}
+
+#foto1{
+	float: left;
+	background-image: url(../Imagenes/nombre.jpg);
+	width: 337px;
+	height: 95px;
+
+}
+
+#foto2{
+	float: right;
+	background-image: url(../Imagenes/cabacera.jpg);
+	width: 830px;
+	height: 98px;
+
+}
+
+#menu{
+float: left;
+width: 100%;
+background-image: url(../Imagenes/fondo_menu.jpg);
+
+}
+
+#menu li{
+
+	
+	list-style: none;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.5em 0.5em;
+	/*width: calc(100%/9);
+	font-size: 13px;*/
+
+}
+
+#menu li:hover{
+
+	background: lightgreen;
+	color: black;
+
+}
+
+
+#cuerpo{
+
+background: #185512;
+background-image: url(../Imagenes/fondo_pie.jpg);
+background-repeat: repeat-x;
+float: left;
+width: 100%;
+
+}
+
+#cuerpotop{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background: #123519;
+	float: left;
+	width: 100%;
+	color: white;
+
+}
+
+#cuerpotop > div{
+
+	float: left;
+	width: 42%;
+	font-weight: 600;
+	margin: 0.5em 2em;
+
+}
+
+#cuerpotop > div > div{
+
+	float: left;
+	width: 30%;
+
+}
+
+#cuerpotop p{
+
+	font-weight: 300;
+	text-decoration: underline;
+}
+
+#cuerpotop input{
+
+	margin: 0 1em;
+	width: 60%;
+
+}
+
+#cuerpotop button{
+
+	float: right;
+
+}
+
+#cuerpoizq{
+
+
+	float: left;
+	width: 500px;
+	margin-right: 0.7em;
+	margin-bottom: 1em;
+	margin-left: 0.2em;
+	
+}
+
+#registrate{
+
+	background: #123519;
+	border-top-right-radius: 20px;
+	margin-top: 1em;
+	border-top-right-radius: 20px;
+
+}
+
+#registrate > b{
+
+	color: lightgoldenrodyellow;
+
+}
+
+#comunio{
+
+	background: #123519;
+	border-top-right-radius: 20px;
+	
+
+}
+
+form > div{
+
+	overflow: hidden;
+	background: #c3e3be;
+	border-top: 2px solid darkgreen;
+
+
+}
+
+form label{
+
+	font-weight: 600;
+
+}
+
+
+
+form > div > div{
+
+	float: left;
+	width: 43%;
+	height: 3%;
+	margin: 0.5em 1em;
+}
+
+form > div > .grande{
+
+	float: left;
+	width: 42%;
+	height: 5%;
+	margin: 0.5em 1em;
+}
+
+form > div > .largo{
+
+	float: left;
+	width: 100%;
+	height: 1.5%;
+	margin: 0.5em 1em;
+
+}
+
+form > div > .largo > i{
+
+	font-style: normal;
+	text-decoration: underline darkblue;
+}
+
+
+#jugar{
+
+	background:#123519; 
+	padding: 1em 0.5em 0.5em 0.5em;
+
+}
+
+#jugar button{
+
+	padding: 0.25em;
+	font-weight: 600;
+
+}
+
+#jugar #boton1{
+
+	padding: 0.35em 0.25em;
+	background: green;
+	color: white;
+}
+
+
+#cuerpoder{
+
+
+	float: left;
+	width: 38.05%;
+	margin-left: 0.8em;
+	
+	border-top-right-radius: 20px;
+	width: 300px;
+}
+
+.tabla2{
+
+	padding: 0.5em 0.2em;
+	color: white;
+	font-size: 15px;
+	background: #185512;
+}
+
+.tabla1{
+
+	color: white;
+	font-weight: 600;
+	padding: 0.5em 0.2em;
+	
+}
+
+#fotospubli img{
+
+	float: left;
+	width: 50%;
+
+}
+
+#pie{
+
+background-image: url(../Imagenes/fondo_pie.jpg);
+float: left;
+height: 66px;
+width: 830px;
+
+}
+
+#pie li{
+
+	float: left;
+	list-style: none;
+	color: white;
+	display: block;
+	margin: 1em 0.25em;
+	text-align: center;
+	font-size: 15px;
+}
+
+.pieletra{
+
+	text-decoration: none;
+	text-decoration: underline white;
+
+
+}
+
+.pieletra:hover{
+
+	color: yellow;
+
+}
+
+#pie div{
+
+	float: left;
+	margin-left: 0.2em;
+
+}
+
+#pie p{
+	flex: left;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+
 }

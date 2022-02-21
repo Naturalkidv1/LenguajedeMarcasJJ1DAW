@@ -1,10 +1,213 @@
 <html>
 <head>
 <title> Web 2 </title>
-<meta c harset="UTF-8"/>
+<meta charset="UTF-8"/>
 <link href="css/css.css" rel="stylesheet" />
 </head>
 <body>
+<div id="todo">
+<div id="encabezado"> 
+	<div id="cabeza"> 
+		
+		<div id="foto2"> 
+			<div id="foto1"> 
+		
+			</div> <!-- foto1 -->
+		</div> <!-- foto2 -->	
+	</div> <!-- cabeza -->	
+	
+	<div id="menu"> 
+		<ul>
+			<li>Home</li>
+			<li>Jugar</li>
+			<li>Apostar</li>
+			<li>Estadísticas</li>
+			<li>Cómo Jugar</li>
+			<li>Tienda Virtual</li>
+			<li>Foro</li>
+			<li>Enlaces</li>
+			<li>Contacto</li>
+		</ul>
+	</div> <!-- menu -->
+</div> <!-- encabezado -->
 
+<div id="cuerpo"> 
+	<div id="cuerpotop"> 
+		<div id="parte1">
+			<div>
+			Nombre de Usuario:
+			<p>¿Aún no te has registrado?</p>
+			</div>
+			<div>
+				<input type="text" name="user"/>
+			</div>
+		</div>
+
+		<div id="parte2">
+			<div>
+			Contraseña:
+			<p>¿te has olvidado?</p>
+			</div>
+			<div>
+				<input type="password" name="password"/>
+			</div>
+			<div>
+				<button> <b> > > Login </b> </button>
+			</div>
+		</div>
+	</div> <!-- cuerpotop -->
+
+	<div id="cuerpoizq"> 
+		<div>
+			<div id="comunio" class="tabla1">
+				Comunio.es - El Manager de Fútbol Online
+			</div>
+			<div>
+				<img src="Imagenes/bg_emotion.jpg">
+			</div>
+		</div>
+
+		<div>
+			<div id="registrate" class="tabla1">
+				Regístrate <b>gratis</b>:
+			</div>
+			
+			<div>
+				<form method="post" action="index.html">
+					<div>
+						<div>
+							<label for="nombreform">Nombre:*</label>
+						</div>
+						<div>
+							<input type="text" name="nombreform" id="nombreform" 
+							required/>
+						</div>
+					</div> <!-- nombre -->
+
+					<div>
+						<div>
+							<label for="apellform">Apellido</label>
+						</div>
+						<div>
+							<input type="text" name="apellform" id="apellform"/>
+						</div>
+					</div> <!-- apellido -->
+
+					<div>
+						<div class="grande">
+							<label for="userform">Nombre de usuario:*</label>
+							</br> (máx. 10 caracteres)
+						</div>
+						<div>
+							<input type="text" name="userform" id="userform" required
+							maxlength="10" />
+						</div>
+					</div> <!-- user -->
+
+					<div>
+						<div class="grande">
+							<label for="passform">Contraseña:*</label>
+							</br> (máx. 8 caracteres)
+						</div>
+						<div>
+							<input type="password" name="passform" id="passform" 
+							required maxlength="8" />
+						</div>
+					</div> <!-- contraseña -->
+
+					<div>
+						<div>
+							<label for="reppassform">Repite tu contraseña:*</label>
+						</div>
+						<div>
+							<input type="password" name="reppassform" id="reppassform" 
+							required maxlength="8" />
+						</div>
+					</div> <!-- repcontraseña -->
+
+					<div>
+						<div>
+							<label for="emailform">Email:*</label>
+						</div>
+						<div>
+							<input type="text" name="emailform" id="emailform" 
+							required maxlength="8" />
+						</div>
+					</div> <!-- email -->
+
+					<div>
+						<div class="largo">
+							<input type="checkbox" name="tercod" id="tercod">
+							He leído las <i>Términos y condiciones</i> y las acepto.*
+						</div>						
+					</div>
+
+					<div>
+						<div class="largo">
+							<input type="radio" name="tercod" id="tercod" checked>
+							Entrar en una comunidad al azar
+						</div>						
+					</div>
+
+					<div>
+						<div class="largo">
+							<input type="radio" name="tercod" id="tercod">
+							Únete a la comunidad existente o crea una nueva
+						</div>						
+					</div>
+					
+					<div>
+						<div class="largo">
+							*campo obligatorio
+						</div>						
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="jugar">
+			<button> Intenta sin registrarte </button>
+			<button id="boton1"> Jugar gratuitamente > ></button>
+		</div>
+	</div> <!-- cuerpoizq -->
+
+	<div id="cuerpoder"> 
+		<div id="tabla">
+			<div class="tabla1">
+				Tendencia de las apuestas
+			</div>
+			<div>
+				<img src="Imagenes/tendencia.jpg">
+			</div>
+		</div>
+			
+		<div id="publi">
+			<div class="tabla2">
+			- Publicidad -
+			</div>
+			<div id="fotospubli">
+				<img src="Imagenes/amazon.jpg">
+				<img src="Imagenes/g_play.jpg">
+				<img src="Imagenes/app_store.jpg">
+				<img src="Imagenes/windows_phone.jpg">
+			</div>
+		</div>
+	</div> <!-- cuerpoder -->
+
+</div> <!-- cuerpo -->
+
+<div id="pie"> 
+	<ul>
+		<li><div class="pieletra">Su publicidad aquí</div><div> -</div></li>
+		<li><div class="pieletra">Ayuda</div><div> -</div></li>
+		<li><div class="pieletra">Características</div><div> -</div></li>
+		<li><div class="pieletra">¿Sugerencias, preguntas, deseos o problemas con el Website?</div><div> -</div></li>
+		<li><div class="pieletra">Enlaces</div><div> -</div></li>
+		<li><div class="pieletra">Contacto</div></li>
+	</ul>
+	<p>
+	&copy;&nbsp;2000-2015 comunio.net
+	</p>
+</div> <!-- pie -->
+</div> <!-- todo -->
 </body>
 </html>
