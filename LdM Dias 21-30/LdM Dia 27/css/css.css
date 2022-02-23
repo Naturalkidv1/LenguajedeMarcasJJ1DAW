@@ -151,7 +151,7 @@ width: 100%;
 	background: #123519;
 	border-top-right-radius: 20px;
 	margin-top: 1em;
-	border-top-right-radius: 20px;
+	
 
 }
 
@@ -264,6 +264,9 @@ form > div > .largo > i{
 	color: white;
 	font-weight: 600;
 	padding: 0.5em 0.2em;
+	background: #123519;
+	border-top-right-radius: 20px;
+	margin-top: 1em;
 	
 }
 
@@ -291,7 +294,7 @@ width: 830px;
 	display: block;
 	margin: 1em 0.25em;
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .pieletra{
@@ -316,7 +319,8 @@ width: 830px;
 }
 
 #pie p{
-	flex: left;
+	float: left;
+	width: 100%;
 	color: white;
 	text-align: center;
 	font-size: 15px;
