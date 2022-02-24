@@ -1,0 +1,283 @@
+html{
+	box-sizing: border-box;
+	height: 100%;
+
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+
+}
+
+body{
+	width: 100%;
+}
+
+#todo{
+
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+
+#cabecera{
+
+	background-color: #1A2E35;
+	float: left;
+	width:100%;
+	
+}
+
+#cabecera li{
+
+	list-style: none;
+	float:left;
+	width:calc(100%/10);
+	text-align: center;
+	color: #7B8E9C;
+	height:3em;
+
+}
+
+#cabecera li:hover{
+	
+	background-color: #111F25;
+	
+}
+
+#ptos{
+background: url("../images/menu/puntos.png") no-repeat bottom;
+}
+#ptos:hover{
+background: url("../images/menu/puntos_b.png") no-repeat bottom;
+}
+
+#les{
+background: url("../images/menu/lesionados.png") no-repeat bottom;
+}
+#les:hover{
+background: url("../images/menu/lesionados_b.png") no-repeat bottom;
+}
+
+#din{
+background: url("../images/menu/dinero.png") no-repeat bottom;
+}
+#din:hover{
+background: url("../images/menu/dinero_b.png") no-repeat bottom;
+}
+
+#jdores{
+background: url("../images/menu/jugadores.png") no-repeat bottom;
+}
+#jdores:hover{
+background: url("../images/menu/jugadores_b.png") no-repeat bottom;
+}
+
+#onid{
+background: url("../images/menu/puntos.png") no-repeat bottom;
+}
+#onid:hover{
+background: url("../images/menu/puntos_b.png") no-repeat bottom;
+}
+
+#lali{
+background: url("../images/menu/laliga.png") no-repeat bottom;
+}
+#lali:hover{
+background: url("../images/menu/laliga_b.png") no-repeat bottom;
+}
+
+#merc{
+background: url("../images/menu/mercado.png") no-repeat bottom;
+}
+#merc:hover{
+background: url("../images/menu/mercado_b.png") no-repeat bottom;
+}
+
+#apue{
+background: url("../images/menu/apuestas.png") no-repeat bottom;
+}
+#apue:hover{
+background: url("../images/menu/apuestas_b.png") no-repeat bottom;
+}
+
+#dud{
+background: url("../images/menu/dudas.png") no-repeat bottom;
+}
+#dud:hover{
+background: url("../images/menu/dudas_b.png") no-repeat bottom;
+}
+
+#buscar{
+background: url("../images/menu/buscar.png") no-repeat bottom;
+}
+#buscar:hover{
+background: url("../images/menu/buscar_b.png") no-repeat bottom;
+}
+
+#cuerpo{
+	
+	background-color: #F5F4F9;
+	float:left;
+	width: 100%;
+
+}
+
+#tabla{
+	overflow:hidden;
+	margin: 1em 0;
+	margin-left: 1em; 
+	text-align: center;
+	font-size: 13px;
+	
+}
+
+#tabla b{
+
+	color:red;
+	font-weight: 300;
+
+}
+
+
+#tabla > div{
+
+	float: left;
+	width: 18%;
+	background: white;
+	margin: 0.5em;
+	margin-right: 1.25em;
+	
+}
+
+#tabla > div > div{
+
+float: left;
+width: calc(100%/3);
+}
+
+#formulario{
+
+	background-color: white;
+	margin: 1em 2em;
+
+}
+
+.claro{
+
+	color: grey;
+
+}
+
+#formulario > h4{
+
+	padding-top: 2em;
+	margin: 1em 1em;
+
+}
+#formulario > form{
+
+	width:98%;
+	margin: 0.5em auto;
+	overflow:hidden;
+}
+#formulario > form > div{
+	float:left;
+	width:100%;
+	margin: 1px 0;
+	background: #D8F3FD;
+	padding: 1em;
+
+}
+
+.texto input{
+
+	float: right;
+	width: 50%
+		
+}
+
+#formulario #botones{
+
+	margin: 0.5em;
+
+}
+
+#botones input{
+
+	padding: 0.25em;
+	border-radius: 0;
+
+}
+
+#anuncio{
+
+	margin: 1em 2em;
+	margin-bottom: 3em;
+	overflow: hidden;
+}
+
+#anuncio #dr{
+background-color: white;
+overflow: hidden;
+}
+
+#anuncio #dr{
+padding: 0.25em 0.50em;
+background-color: white;
+float:right;
+overflow: hidden;
+
+
+}
+
+#anuncio #iz{
+padding: 0.25em 0.50em;
+background-color: white;
+float: left;
+overflow: hidden;
+
+}
+
+
+#anuncio div{
+	font-weight: 600;	
+	
+}
+
+#anuncio img{
+padding: 0.25em 3em;}
+
+
+#pie{
+	float:left;
+	width: 100%;
+	background-color: black;
+	color: #517985;
+	overflow: hidden;
+}
+
+#pie > div{
+
+	float:left;
+	width: 100%;
+	margin: 2em 40%;
+}
+#pie div > div{
+	
+	width:100%;
+	float:left;
+	text-align: justify;
+
+}
+
+#pie b{
+
+	font-weight: 300;
+	color: white;
+
+}
+
