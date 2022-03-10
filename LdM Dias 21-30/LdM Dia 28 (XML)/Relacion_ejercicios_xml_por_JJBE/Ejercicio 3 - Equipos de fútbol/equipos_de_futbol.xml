@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+	<equipo1 nombre="Fútbol Club Barcelona" ciudad="Barcelona" entrenador="entrenador1">
+		<jugadores>
+			<jugador1-1 posicion="Defensa">
+				<nombre>Dani Alves</nombre>
+				<nacionalidad>Brasil</nacionalidad>
+			</jugador1-1>
+				
+			<jugador1-2 posicion="Delantero">
+				<nombre>Ferran Torres</nombre>
+				<nacionalidad>España</nacionalidad>
+			</jugador1-2>
+		</jugadores>
+	</equipo1>
+	
+	<equipo2 nombre="Real Madrid Club de Fútbol" ciudad="Madrid" entrenador="entrenador2">
+		<jugadores>
+			<jugador2-1 posicion="Delantero">
+				<nombre>Gareth Bale</nombre>
+				<nacionalidad>Reino Unido</nacionalidad>
+			</jugador2-1>
+				
+			<jugador2-2 posicion="Centrocampista">
+				<nombre>Isco</nombre>
+				<nacionalidad>España</nacionalidad>
+			</jugador2-2>
+		</jugadores>
+	</equipo2>
+</equipos>

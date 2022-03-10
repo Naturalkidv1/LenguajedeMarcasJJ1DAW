@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<segmentos>
+	<segmento1>
+		<nombre>Alborán</nombre>
+		<titutlo>Web del IES Mar de Alborán.</titutlo>
+		<enlace>http://www.alboran.com/</enlace>
+	</segmento1>
+
+	<segmento2>
+		<nombre>Wikipedia</nombre>
+		<titutlo>La enciclopedia libre.</titutlo>
+		<enlace>http://www.wikipedia.org/</enlace>
+	</segmento2>
+	
+	<segmento3>
+		<nombre>W3C</nombre>
+		<titutlo>World Wide Web Consortium.</titutlo>
+		<enlace>http://www.w3.org/</enlace>
+	</segmento3>
+</segmentos>
