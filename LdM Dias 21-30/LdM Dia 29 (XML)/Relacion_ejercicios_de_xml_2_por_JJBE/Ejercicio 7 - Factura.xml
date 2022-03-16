@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura num_factura="999" total="1125,20">
+	
+	<datos_factura1>
+		<contacto_empresa>
+			<nombreemp>Equipos Digitales S.L.</nombreemp>
+			<avemp>Valladolidad</avemp>
+			<provemp>Madrid</provemp><cod_postalemp>28015</cod_postalemp>
+			<cifemp>Q-9876543</cifemp>
+			<tlfemp>91.777.66.88</tlfemp>
+			<faxemp>91.777.66.99</faxemp>
+		</contacto_empresa>
+		<detalles_pedido>
+			<fecha_pedido>10-01-2005</fecha_pedido>
+			<num_pedido>731</num_pedido>
+			<forma_de_pago>EFECTIVO</forma_de_pago>
+		</detalles_pedido>
+	</datos_factura1>
+
+	<datos_cliente>
+		<num_cliente>879</num_cliente>
+		<nom_cliente>Darío Bueno Gutiérrez</nom_cliente>
+		<dircliente>Av. Oporto nº7 4ºd</dircliente>
+		<pobcli>Madrid</pobcli>
+		<cod_postal_cli>28043</cod_postal_cli>
+		<provcli>Madrid</provcli>
+	</datos_cliente>
+
+	<datos_factura2 base_imponible="970.00" ivatotal="16.0" cuota_iva="155.20">
+		<producto refprod="MII9300F/8">
+			<descrip_prod>
+				MICRO PENTIUM IV 3000MHZFB800
+			</descrip_prod>
+			<cantidad>1</cantidad>
+			<iva>16.0</iva>
+			<importe_producto>266.80</importe_producto>
+		</producto>
+			
+		<producto refprod="MB8QDIP4">
+			<descrip_prod>
+				PLACA BASE QDIP4
+			</descrip_prod>
+			<cantidad>1</cantidad>
+			<iva>16.0</iva>
+			<importe_producto>208.80</importe_producto>
+		</producto>
+			
+		<producto refprod="MEDD512M32">
+			<descrip_prod>
+				DIMM DDR 512MB3200
+			</descrip_prod>
+			<cantidad>2</cantidad>
+			<iva>16.0</iva>
+			<importe_producto>92.80</importe_producto>
+		</producto>
+			
+		<producto refprod="HD250GSA7">
+			<descrip_prod>
+				DISCO DURO 250GB S-ATA7200
+			</descrip_prod>
+			<cantidad>4</cantidad>
+			<iva>16.0</iva>
+			<importe_producto>556.80</importe_producto>
+		</producto>
+	</datos_factura2>
+</factura>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+	
+	<pelicula tit_org="Old School" pais="EE UU" anio="2003" duracion="93min">
+		<titulo tit_esp="AQUELLAS JUERGAS UNIVERSITARIAS"/>
+		<director>Todd Phillips</director>
+		<interpetres>
+			<actor>Will Ferrell</actor>
+			<actor>Luke Wilson</actor>
+			<actor>Vince Vaughn</actor>
+			<actor>Jeremy Piven</actor>
+			<actor>Juliette Lewis</actor>
+			<actor>Sean William Scott</actor>
+		</interpetres>
+		<sinopsis>
+			Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que
+		esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero
+		que agarra. Frank se ha casado y su matrimonio nada tiene que ver con
+		las juergas salvajes que organizaban años atrás. Y Beanie es un padre de familia que se
+		muere por recuperar su alocada juventud. Pero las cosas cambian cuando Beanie sugiere
+		que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la
+		universidad. Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver
+		a sus viejas, salvajes y desmadradas juergas de estudiantes.
+		</sinopsis>
+		<web>http://www.oldschool-themovie.com/</web>
+		<fic_graf/>
+		<clasificacion clasf="Comedia autorizada para mayores de 16 años"/>
+	</pelicula>
+
+	<pelicula tit_org="Superlópez" pais="España" anio="2018" duracion="108min">
+		<titulo/>
+		<director>Javier Ruiz Caldera</director>
+		<interpetres>
+			<actor>Dani Rovira</actor>
+			<actor>Julían López</actor>
+			<actor>Pedro Casablanc</actor>
+			<actor>Mireria Portas</actor>
+		</interpetres>
+		<sinopsis>
+			El planeta Chitón está a punto de caer en las manos de un malvado dirigente. 
+			La única esperanza de sus habitantes es el bebé Jo-Con-Él, 
+			que es enviado a la Tierra en un cohete que no termina, precisamente, en el lugar que sus padres tenían pensado.
+		</sinopsis>
+		<web/>
+		<fic_graf/>
+		<clasificacion clasf="Comedia de acción autorizada para todas las edades"/>
+	</pelicula>
+</cartelera>
