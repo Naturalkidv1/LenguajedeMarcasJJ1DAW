@@ -1,0 +1,20 @@
+<!ELEMENT persona (nombre, apellidos)> -- y -- 
+<!ELEMENT persona (nombre, apellidos?)> -- apellidos opcional --
+<!ELEMENT persona (nombre|apellidos)> -- o -- 
+<!ELEMENT persona ((nombre, apellidos) | (apellidos, nombre))> -- permite que ambos ordenes existan --
+
+<!ELEMENT persona (nombre, apellidos, direccion, (hombre|mujer)?, hijos?)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+
+<!ELEMENT direccion (#PCDATA|provincia|poblacion)*>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+
+<!ELEMENT hombre EMPTY>
+<!ELEMENT mujer EMPTY>
+
+<!ELEMENT hijos (hijo+)> -- 1 al menos --
+<!ELEMENT hijos (hijo*)> -- desde 0 hasta infinito --
+<!ELEMENT hijo (#PCDATA)>

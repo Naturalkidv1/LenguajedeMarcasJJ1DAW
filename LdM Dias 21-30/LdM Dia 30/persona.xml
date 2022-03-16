@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE peronsa SYSTEM "persona.dtd"> -- externo --
+
+<!DOCTYPE persona 
+[<!ELEMENT persona ((nombre, apellidos) | (apellidos, nombre))>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+]> -- interno --
+
+<persona>
+	<nombre>Miguel</nombre>
+	<apellidos>Martínez Pérez</apellidos>
+	<dirrecion>
+		<provincia>Málaga</provincia>
+		Calle Sant Cristo
+		<poblacion>Istán</poblacion>
+	</dirrecion>
+	<hombre/>
+	<hijos>
+		<hijo>Juan</hijo>
+		<hijo>Pedro</hijo>
+	</hijos>
+</persona>

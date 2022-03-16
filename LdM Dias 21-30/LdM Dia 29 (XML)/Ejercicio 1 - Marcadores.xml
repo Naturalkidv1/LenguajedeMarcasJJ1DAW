@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<busqueda>
+	<destinario>
+		<nombre>Juan</nombre>
+		<ape1>Delgado</ape1>
+		<ape2>Martínez</ape2>
+	</destinario>
+
+	<articulo>
+		<objeto modelo="A2023">Bicicleta</objeto>
+	</articulo>
+
+	<dirrecion>
+		<calle>Barco 4</calle>
+		<piso>3</piso>
+		<letra>A</letra>
+	</dirrecion>
+
+	<fechaentrega>
+		<dia>19</dia>
+		<mes>5</mes>
+		<anio>2000</anio>
+	</fechaentrega>
+</busqueda>
