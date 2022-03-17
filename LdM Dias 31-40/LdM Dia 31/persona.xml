@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE persona 
+[<!ELEMENT persona (nombre, apellidos?, direccion, (hombre|mujer)?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT direccion ((calle, poblacion)|(poblacion, calle))>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+
+<!ELEMENT hombre EMPTY>
+<!ELEMENT mujer EMPTY>
+
+<!ATTLIST poblacion cod CDATA #REQUIRED
+					habitantes NMTOKENS #IMPLIED
+					id ID #REQUIRED>
+<!-- CDATA = valor; NMTOKENS = más de un valor; NMTOKEN = un valor valido; ID = valor único; IDREF = valor único externo;
+IDREFS = varios valores únicos externos;
+[NO SE PUEDE TENER NUMEROS COMO NOMBRE DE NADA]  -->
+<!-- #FIXED (valor) = puede salir o no a un valor definido; #REQUIRED = tien que aparecer; #IMPLIED = puede salir o no -->
+]>
+
+<persona>
+	<nombre>Gohan</nombre>
+	<apellidos>Son</apellidos>
+	<direccion>
+		<calle>Le falta</calle>
+		<poblacion cod="e29680" habitantes="puedo_estar_o_no" id="_29680">Le gana</poblacion>
+	</direccion>
+</persona>
