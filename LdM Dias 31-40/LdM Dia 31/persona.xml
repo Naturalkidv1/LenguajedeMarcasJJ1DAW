@@ -14,7 +14,7 @@
 <!ATTLIST poblacion cod CDATA #REQUIRED
 					habitantes NMTOKENS #IMPLIED
 					id ID #REQUIRED>
-<!-- CDATA = valor; NMTOKENS = más de un valor; NMTOKEN = un valor valido; ID = valor único; IDREF = valor único externo;
+<!-- CDATA = valor; NMTOKENS = más de un valor; NMTOKEN = un valor como -_.: y números; ID = valor único; IDREF = valor único externo;
 IDREFS = varios valores únicos externos;
 [NO SE PUEDE TENER NUMEROS COMO NOMBRE DE NADA]  -->
 <!-- #FIXED (valor) = puede salir o no a un valor definido; #REQUIRED = tien que aparecer; #IMPLIED = puede salir o no -->

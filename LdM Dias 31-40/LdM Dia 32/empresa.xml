@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE empresa [
+<!ELEMENT empresa ((empleados, departamentos) | (departamentos, empleados))>
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT departamentos (departamento+)>
+<!ELEMENT empleado EMPTY>
+<!ELEMENT departamento EMPTY>
+<!ATTLIST empleado
+	dni ID #REQUIRED
+	departamento IDREF #REQUIRED
+	nombre CDATA #REQUIRED
+	horas (4|8) #REQUIRED>
+<!ATTLIST departamento
+	cod ID #REQUIRED
+	nombre CDATA #REQUIRED>
+]>
+
+<empresa>
+	<empleados>
+		<empleado dni="_123" departamento="inf" horas="4" nombre="JJ"/>
+		<empleado dni="_133" departamento="inf" horas="4" nombre="Miguel"/>
+		<empleado horas="8" dni="_143" departamento="eco" nombre="Antoni"/>
+	</empleados>
+
+	<departamentos>
+		<departamento cod="inf" nombre="Informática"/>
+		<departamento cod="eco" nombre="Economía"/>
+	</departamentos>
+</empresa>
+ 

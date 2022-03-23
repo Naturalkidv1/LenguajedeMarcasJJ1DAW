@@ -1,0 +1,4 @@
+<!ENTITY % ryc "ruedas, color">
+<!ELEMENT coche (%ryc;, puertas)>
+<!ELEMENT moto (%ryc;, cc)>
+<!ELEMENT quad (%ryc;, color , cc2)>

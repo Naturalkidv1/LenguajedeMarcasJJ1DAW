@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE empresa [
+<!ELEMENT empresa (#PCDATA)>
+<!ENTITY adn "Ácido Dexoxirribonucleico">
+
+]>
+
+<empresa>
+	<!-- &amp; & &quot; " &lt; < &apos; ' &gt; > -->
+	&adn; Hola esto es basura para explicar el &adn;
+</empresa>

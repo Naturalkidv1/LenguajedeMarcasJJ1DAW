@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE vehiculos SYSTEM "vehiculos.dtd" [
+<!ELEMENT vehiculos (coche, moto, quad)>
+<!ELEMENT puertas (#PCDATA)>
+<!ELEMENT ruedas (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT cc (#PCDATA)>
+<!ELEMENT cc2 (#PCDATA)>
+]>
+
+<vehiculos>
+	<coche>
+		<ruedas>4</ruedas>
+		<color>blanco</color>
+		<puertas>4</puertas>
+	</coche>
+	
+	<moto>
+		<ruedas>2</ruedas>
+		<color>rojo</color>
+		<cc>125</cc>
+	</moto>
+
+	<quad>
+		<ruedas>4</ruedas>
+		<color>azul</color>
+		<cc2>250</cc2>
+	</quad>
+</vehiculos>
