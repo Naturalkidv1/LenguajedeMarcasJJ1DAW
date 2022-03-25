@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reyesEspañoles [
-<!ELEMENT reyesEspañoles (rey* | reina*)*>
+<!DOCTYPE reyesEspanioles [
+<!ELEMENT reyesEspanioles (rey* | reina*)*>
 <!ELEMENT rey (nombre, padre, madre)>
 <!ELEMENT reina (nombre, padre, madre)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT padre (#PCDATA)>
 <!ELEMENT madre (#PCDATA)>]>
-<reyesEspañoles>
+<reyesEspanioles>
 	<rey>
 		<nombre>Felipe III</nombre>
 		<padre>Felipe II</padre>
@@ -22,4 +22,4 @@
 		<padre>Felipe el Hermoso</padre>
 		<madre>Juan la Loca</madre>
 	</rey>
-</reyesEspañoles>
+</reyesEspanioles>
