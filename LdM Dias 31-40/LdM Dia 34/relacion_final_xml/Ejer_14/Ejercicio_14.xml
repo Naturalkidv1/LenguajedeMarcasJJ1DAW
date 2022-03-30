@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco SYSTEM "Ejercicio_14.dtd">
+
+<banco>
+	<clientes>
+		<cliente nif="_11223344N">
+			<prestamo num="_2551"/>
+			<cuenta cod="_11" permiso="titular"/>
+			<cuenta cod="_21" permiso="autorizado"/>
+		</cliente>
+		<cliente nif="_11223355Z">
+			<cuenta cod="_11" permiso="autorizado"/>
+		</cliente>
+		<cliente nif="_11223366X">
+			<cuenta cod="_21" permiso="titular"/>
+			<prestamo num="_2552"/>
+		</cliente>
+	</clientes>
+
+	<sucursales>
+		<sucursal id="_1">
+			<cuenta_corriente cod="_11">
+				<domiciliacion num="_131"/>
+			</cuenta_corriente>
+		</sucursal>
+		<sucursal id="_2">
+			<cuenta_corriente cod="_21">
+				<domiciliacion num="_231"/>
+			</cuenta_corriente>
+		</sucursal>
+	</sucursales>
+</banco>

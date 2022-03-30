@@ -1,0 +1,23 @@
+<!ELEMENT banco ((clientes, sucursales)|(sucursales, clientes))>
+
+<!ENTITY % idr "ID #REQUIRED">
+
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT sucursales (sucursal+)>
+
+<!ELEMENT cliente (prestamo*, cuenta+, prestamo*)+>
+<!ATTLIST cliente nif %idr;>
+<!ELEMENT prestamo EMPTY>
+<!ATTLIST prestamo num %idr;>
+<!ELEMENT cuenta EMPTY>
+<!ATTLIST cuenta 
+	cod IDREF #REQUIRED
+	permiso (titular|autorizado) #REQUIRED
+>
+
+<!ELEMENT sucursal (cuenta_corriente+)>
+<!ATTLIST sucursal id %idr;>
+<!ELEMENT cuenta_corriente (domiciliacion*)>
+<!ATTLIST cuenta_corriente cod %idr;>
+<!ELEMENT domiciliacion EMPTY>
+<!ATTLIST domiciliacion num %idr;>
