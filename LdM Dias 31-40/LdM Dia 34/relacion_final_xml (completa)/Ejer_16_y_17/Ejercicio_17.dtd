@@ -1,0 +1,20 @@
+<!ELEMENT buzon ((paquete|carta)+)>
+<!ATTLIST buzon
+	codpostal CDATA #REQUIRED
+>
+<!ELEMENT paquete EMPTY>
+<!ATTLIST paquete
+	sellado CDATA #REQUIRED
+	remitente CDATA #IMPLIED
+	destinatario CDATA #REQUIRED
+	dirRemitente CDATA #IMPLIED
+	dirDestino CDATA #REQUIRED
+>
+<!ELEMENT carta EMPTY>
+<!ATTLIST carta
+	sellado CDATA #REQUIRED
+	remitente CDATA #IMPLIED
+	destinatario CDATA #REQUIRED
+	dirRemitente CDATA #IMPLIED
+	dirDestino CDATA #REQUIRED
+>

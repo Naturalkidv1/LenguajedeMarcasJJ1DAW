@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE motorsol SYSTEM "motorsol.dtd">
+
+<motorsol>
+
+	<piezas>
+		<pieza codpieza="p1" compuestode="p2"/>
+		<pieza codpieza="p2"/>
+		<pieza codpieza="p3" compuestode="p1"/>
+		<pieza codpieza="p4"/>
+	</piezas>
+
+	<motores>
+		<motor codmotor="m1" responsable="e1" piezasUsadas="p1 p4">
+			<trabajador codempleadoT="e1" trabajadoresACargo="e2 e3"/>
+			<trabajador codempleadoT="e4"/>
+		</motor>
+		<motor codmotor="m2" responsable="e4" piezasUsadas="p1 p4">
+			<trabajador codempleadoT="e4"/>
+		</motor>
+	</motores>
+	
+	<empleados>
+		<empleado codempleado="e1"/>
+		<empleado codempleado="e2"/>
+		<empleado codempleado="e3"/>
+		<empleado codempleado="e4"/>
+	</empleados>
+
+	<secciones>
+		<seccion codsec="s1" trabajaEn="m1 m2"/>
+	</secciones>
+
+</motorsol>

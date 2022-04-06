@@ -1,0 +1,12 @@
+<!ELEMENT libreta_de_dirreciones (direccion+)>
+<!ELEMENT direccion EMPTY>
+<!ATTLIST direccion
+	nomCliente CDATA #REQUIRED
+	puerta CDATA #REQUIRED
+	edif CDATA #REQUIRED
+	calle CDATA #REQUIRED
+	codPostal CDATA #REQUIRED
+	localidad CDATA #REQUIRED
+	municipio CDATA #REQUIRED
+	CA CDATA #REQUIRED
+>

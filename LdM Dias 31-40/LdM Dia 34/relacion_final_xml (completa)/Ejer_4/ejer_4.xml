@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE lista_de_personas [
+
+<!ELEMENT lista_de_personas (persona+) >
+<!ELEMENT persona (nombre, fechanacimiento, telefono+, numeroseguridadsocial?, sexo?) >
+<!ATTLIST persona 
+    nacionalidad CDATA #REQUIRED    
+>
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT fechanacimiento (#PCDATA) >
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT numeroseguridadsocial (#PCDATA)>
+<!ELEMENT sexo (#PCDATA) >
+]>
+
+<lista_de_personas>
+    <persona nacionalidad="español">
+    <nombre>José García</nombre>
+    <fechanacimiento>25/04/1984</fechanacimiento>
+    <telefono>670201256</telefono>
+    <telefono>968472898</telefono>
+    <sexo>Varón</sexo>
+    </persona>
+    
+    <persona nacionalidad="español">
+    <nombre>Juan Antonio</nombre>
+    <fechanacimiento>25/04/1984</fechanacimiento>
+    <telefono>670201256</telefono>
+    <numeroseguridadsocial>2569587412569</numeroseguridadsocial>
+    </persona>
+</lista_de_personas>

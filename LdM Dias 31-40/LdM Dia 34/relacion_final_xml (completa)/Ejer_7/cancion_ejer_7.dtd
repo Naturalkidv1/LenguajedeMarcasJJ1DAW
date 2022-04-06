@@ -1,0 +1,29 @@
+<!ELEMENT CD (canciones, fecha)>
+<!ELEMENT canciones (cancion+)>
+<!ELEMENT cancion (titulo, compositores, productores, sello, artista)>
+<!ATTLIST cancion
+	duracion CDATA #IMPLIED
+	anio CDATA #IMPLIED
+	titulo CDATA #REQUIRED
+>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT compositores (compositor+)>
+<!ELEMENT compositor (nombres, apellidos)>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+
+<!ELEMENT productores (productor+)>
+<!ELEMENT productor (nombres, apellidos)>
+
+<!ELEMENT sello (#PCDATA)>
+
+<!ELEMENT artista (#PCDATA)>
+
+<!ELEMENT fecha EMPTY>
+<!ATTLIST fecha
+	dia NMTOKEN #IMPLIED
+	mes NMTOKEN #IMPLIED
+	anio NMTOKEN #REQUIRED
+>

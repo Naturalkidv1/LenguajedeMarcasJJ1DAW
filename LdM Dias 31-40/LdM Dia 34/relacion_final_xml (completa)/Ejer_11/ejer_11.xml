@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE Libro [
+<!ELEMENT Libro (Titulo, Contenido, Copyright)>
+<!ATTLIST Libro id CDATA #REQUIRED>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Contenido (Capitulo, Separacion?)+>
+<!ELEMENT Capitulo (Tema, Seccion+)>
+<!ATTLIST Capitulo materia CDATA #IMPLIED>
+<!ELEMENT Tema (#PCDATA)>
+<!ELEMENT Seccion (#PCDATA)>
+<!ATTLIST Seccion apartados CDATA #REQUIRED dificil CDATA #IMPLIED>
+<!ELEMENT Separacion EMPTY>
+<!ELEMENT Copyright (#PCDATA)>
+]>
+
+<Libro id="libro1">
+
+	<Titulo>El Principito</Titulo>
+
+	<Contenido>
+		<Capitulo materia="materia1">
+			<Tema>Interesante Reflexión sobre Dios</Tema>
+			<Seccion apartados="3">Alta</Seccion>
+		</Capitulo>
+		<Separacion/>
+		<Capitulo materia="materia2">
+			<Tema>Los Tres Dólmenes</Tema>
+			<Seccion apartados="6">Media</Seccion>
+		</Capitulo>
+	</Contenido>
+
+	<Copyright>Protegidos por las leyes de derecho de autor</Copyright>
+
+</Libro>

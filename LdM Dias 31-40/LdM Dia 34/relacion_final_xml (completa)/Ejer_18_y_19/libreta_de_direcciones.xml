@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreta_de_dirreciones SYSTEM "libreta_de_dirreciones.dtd">
+
+<libreta_de_dirreciones>
+	<direccion nomCliente="Juan Bazán" puerta="4ºD" edif="Calamarri" calle="C/ Oceanica" 
+		codPostal="29680" localidad="Estepona" municipio="Malaga" CA="Andalucia"/>
+</libreta_de_dirreciones>

@@ -1,0 +1,36 @@
+<!ELEMENT motorsol (piezas, motores, empleados, secciones)>
+
+<!ELEMENT piezas (pieza+)>
+<!ELEMENT pieza EMPTY>
+<!ATTLIST pieza
+	codpieza ID #REQUIRED
+	compuestode IDREFS #IMPLIED
+>
+
+<!ELEMENT motores (motor+)>
+<!ELEMENT motor (trabajador+)>
+<!ATTLIST motor
+	codmotor ID #REQUIRED
+	responsable IDREF #REQUIRED
+	piezasUsadas IDREFS #REQUIRED
+>
+<!ELEMENT trabajador EMPTY>
+<!ATTLIST trabajador
+	codempleadoT IDREF #REQUIRED
+	trabajadoresACargo IDREFS #IMPLIED
+>
+
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado EMPTY>
+<!ATTLIST empleado
+	codempleado ID #REQUIRED
+>
+
+<!ELEMENT secciones (seccion+)>
+<!ELEMENT seccion EMPTY>
+<!ATTLIST seccion
+	codsec ID #REQUIRED
+	trabajaEn IDREFS #IMPLIED
+>
+
+

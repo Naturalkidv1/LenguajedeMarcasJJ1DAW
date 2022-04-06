@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buzon SYSTEM "Ejercicio_17.dtd">
+
+<buzon codpostal="29680">
+	<paquete sellado="si" remitente="Alexander Frey" destinatario="Galileo Volteur" 
+		dirRemitente="Calle 13" dirDestino="Calle 12"/>
+	<carta sellado="si" remitente="Galileo Volteur" destinatario="Nikola Edison" 
+		dirRemitente="Calle 12" dirDestino="Calle 11"/>
+	<carta sellado="si" remitente="Nikola Edison" destinatario="Alexander Frey" 
+		dirRemitente="Calle 11" dirDestino="Calle 13"/>
+</buzon>
