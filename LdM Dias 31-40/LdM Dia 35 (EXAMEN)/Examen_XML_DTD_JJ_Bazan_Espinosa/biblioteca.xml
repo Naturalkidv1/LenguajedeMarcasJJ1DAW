@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (libros,autores,editoriales)>
+
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (titulo, precio, fecPubli, escritoPor, editadoPor, revision*)>
+	<!ATTLIST libro isbn ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+	<!ATTLIST precio moneda CDATA #FIXED "euro">
+<!ELEMENT fecPubli (#PCDATA)>
+<!ELEMENT escritoPor EMPTY>
+	<!ATTLIST escritoPor autor IDREFS #REQUIRED>
+<!ELEMENT editadoPor EMPTY>
+	<!ATTLIST editadoPor editorial IDREF #REQUIRED>
+<!ELEMENT revision (valoracion, comentario?)>
+	<!ATTLIST revision 
+		codrevisor IDREF #REQUIRED
+		codrevision ID #REQUIRED
+	>
+<!ELEMENT valoracion (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (nombre, apellidos, email?)>
+	<!ATTLIST autor nif ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT editoriales (editorial+)>
+<!ELEMENT editorial (oficina, web)>
+	<!ATTLIST editorial nombre ID #REQUIRED>
+<!ELEMENT oficina (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+
+
+]>
+
+
+<biblioteca>
+	<libros>
+		<libro isbn="_1-55655-767-6">
+			<titulo>Fundamentos de bases de datos</titulo>
+			<precio moneda="euro">40</precio>
+			<fecPubli>2003</fecPubli>
+			<escritoPor autor="_23456788P _23456787G"/>
+			<editadoPor editorial="McGraw-Hill"/>
+			<revision codrevisor="_23456789N" codrevision="r11">
+				<valoracion>7.7</valoracion>
+				<comentario>Bastante acertado.</comentario>
+			</revision>
+		</libro>
+		
+		<libro isbn="_1-55655-485-7">
+			<titulo>Implementaciones de Lenguajes de Marcas</titulo>
+			<precio moneda="euro">30</precio>
+			<fecPubli>2001</fecPubli>
+			<escritoPor autor="_23456789N"/>
+			<editadoPor editorial="River-Mountain"/>
+			
+			<revision codrevisor="_23456787G" codrevision="r21">
+				<valoracion>6</valoracion>
+				<comentario>No está mal.</comentario>
+			</revision>
+			
+			<revision codrevisor="_23456788P" codrevision="r22">
+				<valoracion>7</valoracion>
+				<comentario>Aceptable.</comentario>
+			</revision>
+			
+			<revision codrevisor="_78945621S" codrevision="r23">
+				<valoracion>10</valoracion>
+				<comentario>Obra Maestra.</comentario>
+			</revision>
+		</libro>
+		
+		<libro isbn="_1-15678-781-8">
+			<titulo>Funcionamiento del Espectro de Luz Visible</titulo>
+			<precio moneda="euro">40</precio>
+			<fecPubli>2003</fecPubli>
+			<escritoPor autor=" _23456787G _23456789N"/>
+			<editadoPor editorial="Solaire"/>
+		</libro>
+		
+	</libros>
+	
+	<autores>
+		<autor nif="_23456788P">
+			<nombre> Abraham</nombre>
+			<apellidos>Silberschatz</apellidos>
+			<email>ilbers@hotmail.com</email>
+		</autor>
+		
+		<autor nif="_23456787G">
+			<nombre>Henry</nombre>
+			<apellidos>Korth</apellidos>
+			<email>korth@hotmail.com</email>
+		</autor>
+		
+		<autor nif="_23456789N">
+			<nombre>James</nombre>
+			<apellidos>Smith</apellidos>
+		</autor>
+		
+		<autor nif="_78945621S">
+			<nombre>Juan</nombre>
+			<apellidos>Bazán</apellidos>
+		</autor>
+		
+	</autores>
+	
+	<editoriales>
+		<editorial nombre="McGraw-Hill">
+			<oficina>Av. Santander s/n</oficina>
+			<web>http://www.mcgrawhill.es</web>
+		</editorial>
+		
+		<editorial nombre="River-Mountain">
+			<oficina>Av. España s/n</oficina>
+			<web>http://www.rvermount.es</web>
+		</editorial>
+		
+		<editorial nombre="Solaire">
+			<oficina>Av. Puerta del Sol s/n</oficina>
+			<web>http://www.prtsol.es</web>
+		</editorial>
+		
+	</editoriales>
+</biblioteca>
+
+
