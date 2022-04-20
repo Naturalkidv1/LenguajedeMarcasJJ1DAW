@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<notas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="notas.xsd">
+
+    <nota >
+        <de>Juan</de>
+        <para>Pedro</para>
+        <!-- <titulo>Recordatorio</titulo> -->
+        <fecha>2022-01-01</fecha>
+        <contenido>A las 7:00 pon despertador para ir instituto</contenido>
+    </nota>
+
+</notas>
