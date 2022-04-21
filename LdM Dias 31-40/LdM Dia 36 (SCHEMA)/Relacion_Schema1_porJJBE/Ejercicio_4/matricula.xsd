@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="matricula" type="tipoMatricula"/>
+
+    <xs:complexType name="tipoMatricula">
+        <xs:sequence>
+            <xs:element name="personal" type="tipoPersonal" />
+            <xs:element name="pago" type="tipoPago" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPersonal">
+        <xs:sequence>
+            <xs:element name="dni" type="xs:string"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="titulacion" type="xs:string"/>
+            <xs:element name="curso_academico" type="xs:string"/>
+            <xs:element name="domicilios" type="tipoDomicilios"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- <xs:element name="domicilios" type="tipoDomicilios"/> -->
+
+    <xs:complexType name="tipoDomicilios">
+        <xs:sequence>
+            <xs:element name="domicilio" type="tipoDomicilio" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoDomicilio">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="tipo" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPago">
+    <xs:sequence>
+        <xs:element name="tipo_matricula" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
