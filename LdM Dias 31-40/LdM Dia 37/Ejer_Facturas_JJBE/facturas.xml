@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturas.xsd">
+    <factura>
+        <datos_cliente ident="abcd">
+            <nombre>Juan</nombre>
+            <apellido>López</apellido>
+            <apellido>Jiménez</apellido>
+            <dni>11111111N</dni>
+            <tfno>123456789</tfno>
+        </datos_cliente>
+        <datos_factura>
+            <resguardo moneda="euro">
+                <forma_pago>Efectivo</forma_pago>
+                <importe_total >12325.23</importe_total>
+            </resguardo>
+            <alquileres>
+                <fecha>2010-12-25</fecha>
+                <peliculas>
+                    <pelicula id_pelicula="ABC" valoracion="buena">
+                        <titulo>El retorno del Jedi</titulo>
+                        <genero>Espacio</genero>
+                        <duracion>125</duracion>
+                        <actores>
+                            <actor>
+                                <nombre>Juan</nombre>
+                                <apellido>Pardo</apellido>
+                                <apellido>López</apellido>
+                            </actor>
+                            <actor>
+                                <nombre>Jonh</nombre>
+                                <apellido>Smith</apellido>
+                            </actor>
+                            <actor>
+                                <nombre>Luis</nombre>
+                                <apellido>González</apellido>
+                                <apellido>Romero</apellido>
+                            </actor>
+                        </actores>
+                    </pelicula>
+                </peliculas>
+            </alquileres>
+        </datos_factura>
+    </factura>
+</facturas>

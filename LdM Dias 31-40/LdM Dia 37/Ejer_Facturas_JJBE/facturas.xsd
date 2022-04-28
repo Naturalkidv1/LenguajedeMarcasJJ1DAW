@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="facturas" type="tipoFacturas"/>
+
+    <xs:complexType name="tipoFacturas">
+        <xs:sequence>
+            <xs:element name="factura" type="tipoFactura" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoFactura">
+        <xs:sequence>
+            <xs:element name="datos_cliente" type="tipoCliente"/>
+            <xs:element name="datos_factura" type="tipoDatosFactura"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="Datos">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="apellido" type="xs:string" maxOccurs="2"/>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:complexType name="tipoCliente">
+        <xs:sequence>
+            <xs:group ref="Datos"/>
+            <xs:element name="dni" type="tipoDNI"/>
+            <xs:element name="tfno" type="tipoTfno" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="ident" type="xs:ID" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoDNI">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8}[A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoTfno">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="100000000"/>
+            <xs:maxInclusive value="999999999"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tipoDatosFactura">
+        <xs:sequence>
+            <xs:element name="resguardo" type="tipoResguardo"/>
+            <xs:element name="alquileres" type="tipoAlquileres"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoResguardo">
+        <xs:sequence>
+            <xs:element name="forma_pago" type="tipoFomaPago"/>
+            <xs:element name="importe_total" type="tipoImporte"/>
+        </xs:sequence>
+        <xs:attribute name="moneda" type="xs:string" use="required" fixed="euro"/>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoFomaPago">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Efectivo|Tarjeta"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoImporte">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+            <xs:totalDigits value="7"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tipoAlquileres">
+        <xs:sequence>
+            <xs:element name="fecha" type="xs:date"/>
+            <xs:element name="peliculas" type="tipoPeliculas"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPeliculas">
+        <xs:sequence>
+            <xs:element name="pelicula" type="tipoPelicula" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPelicula">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"/>
+            <xs:element name="genero" type="xs:string"/>
+            <xs:element name="duracion" type="xs:integer"/>
+            <xs:element name="actores" type="tipoActores"/>
+        </xs:sequence>
+        <xs:attribute name="id_pelicula" type="xs:ID" use="required"/>
+        <xs:attribute name="valoracion" type="xs:string" />
+    </xs:complexType>
+
+    <xs:complexType name="tipoActores">
+        <xs:sequence>
+            <xs:element name="actor" type="tipoActor" maxOccurs="3" minOccurs="3"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoActor">
+        <xs:group ref="Datos"/>
+    </xs:complexType>
+
+</xs:schema>
