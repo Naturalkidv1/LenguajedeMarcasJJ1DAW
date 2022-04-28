@@ -3,7 +3,7 @@
     <datos>
         <nombre>Pepe</nombre>
         <apellidos>Garcia</apellidos>
-        <dni>25390952</dni>
+        <dni>25390950-A</dni>
     </datos>
-    <comentario>buena gente...</comentario>
+    <precio>17.5</precio>
 </persona>

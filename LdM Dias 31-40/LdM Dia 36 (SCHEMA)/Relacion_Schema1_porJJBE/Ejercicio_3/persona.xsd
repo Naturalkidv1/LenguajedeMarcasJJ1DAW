@@ -22,16 +22,55 @@
                 <xs:element name="datos">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="nombre" type="xs:string"/>
-                            <xs:element name="apellidos" type="xs:string"/>
-                            <xs:element name="dni" type="xs:string"/>
+                            <xs:element name="nombre" type="tipoNombre"/>
+                            <xs:element name="apellidos" type="tipoApellido"/>
+                            <xs:element name="dni" type="tipoDni"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="comentario" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="precio" type="tipoPrecio" minOccurs="0"/>
             </xs:sequence>
             <xs:attribute name="nacimiento" type="xs:date"/>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="tipoNombre">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Pepe"/>
+            <xs:enumeration value="Juan"/>
+            <xs:enumeration value="Marta"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoDni">
+        <xs:restriction base="xs:string">
+            <!--    <xs:minInclusive value="100000000"/> <xs:maxInclusive value="999999999"/> -->
+            <xs:pattern value="[0-9]{8}[-][A-z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoApellido">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="15"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoPrecio">
+        <xs:restriction base="xs:decimal">
+            <xs:totalDigits value="7"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <!--
+    <xs:simpleType name="tipoMoneda">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="euro"/>
+            <xs:enumeration value="dolar"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    -->
 
 </xs:schema>
