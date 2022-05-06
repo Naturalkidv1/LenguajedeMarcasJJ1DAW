@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="personas" type="tipoPersonas"/>
+
+    <xs:complexType name="tipoPersonas">
+        <xs:sequence>
+            <xs:element name="persona" type="tipoPersona" maxOccurs ="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPersona">
+        <xs:sequence>
+            <xs:element name="nombre" type="tipoNombre"/>
+            <xs:element name="nacimiento" type="tipoNacimiento" minOccurs="0"/>
+            <xs:element name="dirreciones" type="tipoDirecciones"/>
+            <xs:choice>
+                <xs:element name="hembra" type="tipoSexo"/>
+                <xs:element name="varon" type="tipoSexo"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoSexo"/>
+
+    <xs:complexType name="tipoNacimiento">
+        <xs:attribute name="dia" type="tipoDia" />
+        <xs:attribute name="mes" type="tipoMes"/>
+        <xs:attribute name="anio" type="tipoAnio"/>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoDia">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="31"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoMes">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoAnio">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1900"/>
+            <xs:maxInclusive value="2011"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tipoDirecciones">
+        <xs:sequence>
+            <xs:element name="direccion" type="tipoDireccion" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoDireccion">
+        <xs:sequence>
+            <xs:element name="calle" type="tipoNombre"/>
+            <xs:element name="poblacion" type="tipoNombre"/>
+            <xs:element name="provincia" type="tipoNombre"/>
+            <xs:element name="cpostal" type="tipoCPostal"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoCPostal">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="10000"/> 
+            <xs:maxInclusive value="99999"/> 
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoNombre">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

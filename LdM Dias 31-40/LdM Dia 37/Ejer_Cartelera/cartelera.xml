@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<cartelera>
-    <película código="1" duración="152" año="2002">
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartelera xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cartelera.xsd">
+    <película código="_1" duración="152" año="2002">
         <título>AQUELLAS JUERGAS UNIVERSITARIAS</título>
         <título_original>Old School</título_original>
         <nacionalidad>Estados Unidos</nacionalidad>
@@ -33,7 +33,7 @@ desmadradas juergas de estudiantes.
         <web>http://www.uip.es</web>
         <cartel>caratulas/Aquellas juergas.jpg</cartel>
     </película>
-    <película código="17" duración="06">
+    <película código="_17" duración="06">
         <título>EL ORO DE MOSCÚ</título>
         <nacionalidad>España</nacionalidad>
         <género>Comedia</género>
