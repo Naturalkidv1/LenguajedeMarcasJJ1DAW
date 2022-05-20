@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ej6.xsl" type="text/xsl"?>
+
+<tienda>
+    <nombre>La tiendecilla</nombre>
+    <telefono>953 87 12 23</telefono>
+    <producto>
+        <codigo>92</codigo>
+        <cantidad>10</cantidad>
+        <articulo>Radio-Casette</articulo>
+        <precio>30</precio>
+    </producto>
+    <producto>
+        <codigo>101</codigo>
+        <cantidad>3</cantidad>
+        <articulo>Sofá</articulo>
+        <precio>90</precio>
+    </producto>
+    <producto>
+        <codigo>103</codigo>
+        <cantidad>50</cantidad>
+        <articulo>Reloj Cocina</articulo>
+        <precio>12</precio>
+    </producto>
+    <producto>
+        <codigo>124</codigo>
+        <cantidad>5</cantidad>
+        <articulo>Roomba Deluxe</articulo>
+        <precio>350</precio>
+    </producto>
+    <producto>
+        <codigo>161</codigo>
+        <cantidad>78</cantidad>
+        <articulo>Cubertería de Oro</articulo>
+        <precio>100</precio>
+    </producto>
+</tienda>
