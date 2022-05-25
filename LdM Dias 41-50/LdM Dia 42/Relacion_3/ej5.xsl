@@ -5,7 +5,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Transformación 3</title>
+                <title>Transformación 5</title>
                 <meta charset = "UTF-8"/>
                 <style>
                     table, td, th{border: 1px solid black}

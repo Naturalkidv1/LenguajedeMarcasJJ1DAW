@@ -5,7 +5,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Transformación 6</title>
+                <title>Transformación 7</title>
                 <meta charset = "UTF-8"/>
                 <style>
                     .rojo {color: red}
@@ -22,6 +22,7 @@
                         <th>Código</th>
                         <th>Artículo</th>
                         <th>Cantidad</th>
+                        <th>Imágen</th>
                     </tr>
                     <xsl:for-each select="tienda/producto">
                         <xsl:sort select="articulo"/>
@@ -51,6 +52,11 @@
                             </td>
                             <td>
                                 <xsl:value-of select="cantidad"/>
+                            </td>
+                            <td>
+                                <!-- <img src="direccion" /// src="Imágenes/&lt;xsl:value-of select='imagen'/&gt;"/>-->
+                            <img width="180" height="120"><xsl:attribute name="src"><xsl:value-of select="imagen"></xsl:value-of>
+                            </xsl:attribute></img>
                             </td>
                         </tr>
                     </xsl:for-each>
