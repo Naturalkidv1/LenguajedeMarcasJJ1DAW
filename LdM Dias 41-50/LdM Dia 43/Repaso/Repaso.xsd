@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="horario" type="tipoHorario"/>
+
+<xs:complexType name="tipoHorario">
+    <xs:sequence>
+        <xs:element name="dia" type="tipoDia" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tipoDia">
+    <xs:sequence>
+        <xs:element name="numdia" type="tipoNumDia"/>
+        <xs:element name="tarea" type="tipoTarea" maxOccurs="unbounded"/> 
+    </xs:sequence>
+    <xs:attribute name="coddia" type="xs:ID" use="required"/>
+</xs:complexType>
+
+<xs:simpleType name="tipoNumDia">
+    <xs:restriction base="xs:positiveInteger">
+        <xs:minInclusive value="1"/>
+        <xs:maxExclusive value="6"/>
+    </xs:restriction>
+
+</xs:simpleType>
+
+<xs:complexType name="tipoTarea">
+    <xs:sequence>
+        <xs:element name="hora-ini" type="xs:positiveInteger"/>
+        <xs:element name="hora-fin" type="xs:positiveInteger"/>
+        <xs:element name="nombre" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="prioridad" type="xs:string" use="optional"/>
+</xs:complexType>
+
+</xs:schema>
